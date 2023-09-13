@@ -10,85 +10,192 @@
 
 .cloud_1 {
   @extend %link;
-  top: -300px;
+  bottom: 200px;
   left: 0px;
-  animation: move_1 ease-in 35s infinite;
+  animation: move_1 ease-in 1000ms;
+
 }
 
 .cloud_2 {
   @extend %link;
-  top: -200px;
-  left: 0px;
-  animation: move_1 ease-in 50s 5s infinite;
+  bottom: 2700px;
+  left: 15px;
+  animation: move_1 ease-in 2000ms;
+
 }
 
 .cloud_3 {
-  top: -50px;
-  left: 0px;
-  animation: move_1 ease-in 70s infinite;
+  @extend %link;
+  bottom: 250px;
+  left: 30px;
+  animation: move_1 ease-in 1500ms;
+
 }
 
 .cloud_4 {
   @extend %link;
-  top: 20px;
-  left: 0px;
-  animation: move_1 ease-in 50s 10s infinite;
+  bottom: 21px;
+  left: 45px;
+  animation: move_1 ease-in 3000ms;
+
 }
 
 .cloud_5 {
   @extend %link;
-  top: 200px;
-  left: 0px;
-  animation: move_1 ease-in 70s 3s infinite;
+  bottom: 250px;
+  left: 60px;
+  animation: move_1 ease-in 1000ms;
+
 }
 
 .cloud_6 {
   @extend %link;
-  top: 300px;
-  right: 0px;
-  animation: move_2 ease-in 30s infinite;
+  bottom: 215px;
+  left: 75px;
+  animation: move_1 ease-in 5000ms;
+
 }
 
 .cloud_7 {
   @extend %link;
-  top: 500px;
-  right: 0px;
-  animation: move_2 ease-in 50s 5s infinite;
+  bottom: 300px;
+  left: 90px;
+  animation: move_1 ease-in 1500ms;
+
 }
 
 .cloud_8 {
   @extend %link;
-  top: 600px;
-  right: 0px;
-  animation: move_2 ease-in 70s infinite;
+  bottom: 250px;
+  left: 105px;
+  animation: move_1 ease-in 3000ms;
+
 }
 
 .cloud_9 {
   @extend %link;
-  top: 250px;
-  right: 0px;
-  animation: move_2 ease-in 50s infinite;
+  bottom: 200px;
+  left: 120px;
+  animation: move_1 ease-in 1000ms;
 }
 
 .cloud_10 {
   @extend %link;
-  top: 700px;
-  left: 0px;
-  animation: move_1 ease-in 35s infinite;
+  bottom: 300px;
+  left: 135px;
+  animation: move_1 ease-in 7000ms;
+
 }
 
 .cloud_11 {
   @extend %link;
-  top: 900px;
-  left: 0px;
-  animation: move_1 ease-in 50s 5s infinite;
+  bottom: 250px;
+  left: 150px;
+  animation: move_1 ease-in 1500ms;
+
 }
 
 .cloud_12 {
   @extend %link;
-  top: 100px;
+  bottom: 200px;
+  left: 165px;
+  animation: move_1 ease-in 3000ms;
+
+}
+
+.cloud_1 {
+  @extend %link;
+  bottom: 200px;
   left: 0px;
-  animation: move_1 ease-in 70s infinite;
+  animation: move_1 ease-in 1000ms;
+
+}
+
+.cloud_2 {
+  @extend %link;
+  bottom: 2700px;
+  left: 15px;
+  animation: move_1 ease-in 2000ms;
+
+}
+
+.cloud_3 {
+  @extend %link;
+  bottom: 250px;
+  left: 30px;
+  animation: move_1 ease-in 1500ms;
+
+}
+
+.cloud_4 {
+  @extend %link;
+  bottom: 21px;
+  left: 45px;
+  animation: move_1 ease-in 3000ms;
+
+}
+
+.cloud_5 {
+  @extend %link;
+  bottom: 250px;
+  left: 60px;
+  animation: move_1 ease-in 1000ms;
+
+}
+
+.cloud_6 {
+  @extend %link;
+  bottom: 215px;
+  left: 75px;
+  animation: move_1 ease-in 5000ms;
+
+}
+
+.cloud_7 {
+  @extend %link;
+  bottom: 300px;
+  left: 90px;
+  animation: move_1 ease-in 1500ms;
+
+}
+
+.cloud_8 {
+  @extend %link;
+  bottom: 250px;
+  left: 105px;
+  animation: move_1 ease-in 3000ms;
+
+}
+
+.cloud_9 {
+  @extend %link;
+  bottom: 200px;
+  left: 120px;
+  animation: move_1 ease-in 1000ms;
+}
+
+.cloud_10 {
+  @extend %link;
+  bottom: 300px;
+  left: 135px;
+  animation: move_1 ease-in 7000ms;
+
+}
+
+.cloud_11 {
+  @extend %link;
+  bottom: 250px;
+  left: 150px;
+  animation: move_1 ease-in 1500ms;
+
+}
+
+.cloud_12 {
+  @extend %link;
+  bottom: 200px;
+  left: 165px;
+  animation: move_1 ease-in 3000ms;
+
 }
 
 
@@ -99,30 +206,31 @@
   border-radius: 50px;
   width: 35px;
   height: 35px;
-  color: white;
+  background: rgb(232, 254, 255);
+  background: radial-gradient(circle, rgba(232, 254, 255, 1) 0%, rgba(237, 240, 245, 1) 100%);
   scale: (1);
   opacity: 1;
-  animation: move_1 ease-in 35s infinite;
+  
 }
 
- @keyframes move_1 {
+@keyframes move_1 {
   0% {
-    left: -100px;
-    scale: (2);
+    top: 0;
+    scale: (1);
   }
 
   50% {
-    left: 500px;
+    top: 300px;
     scale: (1);
   }
 
   100% {
-    left: -100px;
-    scale: (1.5);
+    bottom: 200px;
+    scale: (2);
   }
 }
 
-@keyframes move_2 {
+/* @keyframes move_2 {
   0% {
     right: -100px;
     scale: (1.5);
@@ -137,4 +245,4 @@
     right: -100px;
     scale: (1.5);
   }
-} 
+}  */

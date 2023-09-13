@@ -1,7 +1,7 @@
 body {
   color: rgb(255, 255, 255);
-  background: rgb(6,91,118);
-background: linear-gradient(120deg, rgba(6,91,118,1) 0%, rgba(9,5,38,1) 100%);
+  background: rgb(6, 91, 118);
+  background: linear-gradient(120deg, rgba(6, 91, 118, 1) 0%, rgba(9, 5, 38, 1) 100%);
   padding: 0;
   margin: 0;
   font-family: 'Dancing Script', cursive, 'Playfair Display', serif;
@@ -71,7 +71,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #abb3ba;
   border-radius: 4px;
 }
- 
+
 select {
   width: 100%;
   max-width: 400px;
@@ -81,7 +81,7 @@ select {
   border: 2px solid #1D3124;
   border-radius: 15px;
   display: inline-block;
-  
+
   line-height: 1.5em;
   padding-left: 20px;
   outline: none;

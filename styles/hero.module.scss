@@ -77,3 +77,31 @@
 
   }
 }
+
+.cloud_1 {
+  @extend %link;
+ 
+  
+}
+
+.cloud_2 {
+  @extend %link;
+ 
+}
+
+.cloud_3 {
+  @extend %link;
+ 
+
+}
+
+
+%link {
+  /* position: absolute; */
+  border: 50px;
+  width: 100px;
+  height: 100px;
+  color: white;
+  scale: (1);
+ /*  animation: move_1 ease-in 35s infinite; */
+}

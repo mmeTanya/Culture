@@ -230,6 +230,23 @@
   }
 }
 
+@keyframes move_3 {
+  0% {
+    top: 0;
+    scale: (1);
+  }
+
+  50% {
+    top: 700px;
+    scale: (1);
+  }
+
+  100% {
+    bottom: 200px;
+    scale: (2);
+  }
+}
+
 /* @keyframes move_2 {
   0% {
     right: -100px;

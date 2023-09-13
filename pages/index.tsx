@@ -24,7 +24,6 @@ const Home: NextPage = () => {
           <Hero />
         </main>
         <footer>
-          <Footer />
         </footer>
       </div>
       <GoUp />

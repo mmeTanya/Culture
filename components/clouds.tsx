@@ -27,7 +27,36 @@ const Clouds = () => {
       <button className={s.cloud_22}></button>
       <button className={s.cloud_23}> </button>
       <button className={s.cloud_24}></button>
-
+      <button className={s.cloud_25}> </button>
+      <button className={s.cloud_26}> </button>
+      <button className={s.cloud_27}> </button>
+      <button className={s.cloud_28}></button>
+      <button className={s.cloud_29}></button>
+      <button className={s.cloud_30}> </button>
+      <button className={s.cloud_31}> </button>
+      <button className={s.cloud_32}> </button>
+      <button className={s.cloud_33}> </button>
+      <button className={s.cloud_34}> </button>
+      <button className={s.cloud_35}> </button>
+      <button className={s.cloud_36}></button>
+      <button className={s.cloud_37}></button>
+      <button className={s.cloud_38}> </button>
+      <button className={s.cloud_39}></button>
+      <button className={s.cloud_40}></button>
+      <button className={s.cloud_41}> </button>
+      <button className={s.cloud_42}></button>
+      <button className={s.cloud_43}> </button>
+      <button className={s.cloud_44}> </button>
+      <button className={s.cloud_45}> </button>
+      <button className={s.cloud_46}> </button>
+      <button className={s.cloud_47}> </button>
+      <button className={s.cloud_48}></button>
+      <button className={s.cloud_49}></button>
+      <button className={s.cloud_50}> </button>
+      <button className={s.cloud_51}></button>
+      <button className={s.cloud_52}></button>
+      <button className={s.cloud_53}> </button>
+      <button className={s.cloud_54}></button>
       
     </section>
   );

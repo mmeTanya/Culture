@@ -15,6 +15,18 @@ const Clouds = () => {
       <button className={s.cloud_10}></button>
       <button className={s.cloud_11}> </button>
       <button className={s.cloud_12}></button>
+      <button className={s.cloud_13}> </button>
+      <button className={s.cloud_14}> </button>
+      <button className={s.cloud_15}> </button>
+      <button className={s.cloud_16}> </button>
+      <button className={s.cloud_17}> </button>
+      <button className={s.cloud_18}></button>
+      <button className={s.cloud_19}></button>
+      <button className={s.cloud_20}> </button>
+      <button className={s.cloud_21}></button>
+      <button className={s.cloud_22}></button>
+      <button className={s.cloud_23}> </button>
+      <button className={s.cloud_24}></button>
 
       
     </section>

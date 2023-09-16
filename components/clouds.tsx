@@ -56,7 +56,6 @@ const Clouds = () => {
       <button className={s.cloud_51}></button>
       <button className={s.cloud_52}></button>
       <button className={s.cloud_53}> </button>
-      <button className={s.cloud_54}></button>
       
     </section>
   );

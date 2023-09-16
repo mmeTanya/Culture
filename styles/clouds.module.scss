@@ -18,9 +18,9 @@
 
 .cloud_2 {
   @extend %link;
-  bottom: 2700px;
+  bottom: 270px;
   left: 15px;
-  animation: move_1 ease-in 2000ms;
+  animation: move_2 ease-in 2000ms;
 
 }
 
@@ -28,13 +28,13 @@
   @extend %link;
   bottom: 250px;
   left: 30px;
-  animation: move_1 ease-in 1500ms;
+  animation: move_3 ease-in 1500ms;
 
 }
 
 .cloud_4 {
   @extend %link;
-  bottom: 21px;
+  bottom: 100px;
   left: 45px;
   animation: move_1 ease-in 3000ms;
 
@@ -42,9 +42,11 @@
 
 .cloud_5 {
   @extend %link;
-  bottom: 250px;
-  left: 60px;
-  animation: move_1 ease-in 1000ms;
+  top: 90px;
+  left: 50%;
+  animation: move_2 1000ms ease-in, /* neclece_1 5000ms ease-in 7000ms */;
+ 
+  
 
 }
 
@@ -52,7 +54,8 @@
   @extend %link;
   bottom: 215px;
   left: 75px;
-  animation: move_1 ease-in 5000ms;
+  animation: move_3 ease-in 5000ms;
+
 
 }
 
@@ -68,7 +71,7 @@
   @extend %link;
   bottom: 250px;
   left: 105px;
-  animation: move_1 ease-in 3000ms;
+  animation: move_2 ease-in 3000ms;
 
 }
 
@@ -76,7 +79,7 @@
   @extend %link;
   bottom: 200px;
   left: 120px;
-  animation: move_1 ease-in 1000ms;
+  animation: move_3 ease-in 1000ms;
 }
 
 .cloud_10 {
@@ -91,7 +94,7 @@
   @extend %link;
   bottom: 250px;
   left: 150px;
-  animation: move_1 ease-in 1500ms;
+  animation: move_2 ease-in 1500ms;
 
 }
 
@@ -99,7 +102,7 @@
   @extend %link;
   bottom: 200px;
   left: 165px;
-  animation: move_1 ease-in 3000ms;
+  animation: move_3 ease-in 3000ms;
 
 }
 
@@ -113,9 +116,9 @@
 
 .cloud_14 {
   @extend %link;
-  bottom: 2700px;
+  bottom: 270px;
   left: 195px;
-  animation: move_1 ease-in 2000ms;
+  animation: move_2 ease-in 2000ms;
 
 }
 
@@ -123,13 +126,13 @@
   @extend %link;
   bottom: 250px;
   left: 210px;
-  animation: move_1 ease-in 1500ms;
+  animation: move_3 ease-in 1500ms;
 
 }
 
 .cloud_16 {
   @extend %link;
-  bottom: 21px;
+  bottom: 75px;
   left: 235px;
   animation: move_1 ease-in 3000ms;
 
@@ -139,7 +142,7 @@
   @extend %link;
   bottom: 250px;
   left: 250px;
-  animation: move_1 ease-in 1000ms;
+  animation: move_2 ease-in 1000ms;
 
 }
 
@@ -147,7 +150,7 @@
   @extend %link;
   bottom: 215px;
   left: 275px;
-  animation: move_1 ease-in 5000ms;
+  animation: move_3 ease-in 5000ms;
 
 }
 
@@ -163,7 +166,7 @@
   @extend %link;
   bottom: 250px;
   left: 305px;
-  animation: move_1 ease-in 3000ms;
+  animation: move_2 ease-in 3000ms;
 
 }
 
@@ -171,7 +174,7 @@
   @extend %link;
   bottom: 200px;
   left: 330px;
-  animation: move_1 ease-in 1000ms;
+  animation: move_3 ease-in 1000ms;
 }
 
 .cloud_22 {
@@ -186,7 +189,7 @@
   @extend %link;
   bottom: 250px;
   left: 370px;
-  animation: move_1 ease-in 1500ms;
+  animation: move_2 ease-in 1500ms;
 
 }
 
@@ -194,8 +197,237 @@
   @extend %link;
   bottom: 200px;
   left: 395px;
+  animation: move_3 ease-in 3000ms;
+
+}
+
+.cloud_25 {
+  @extend %link;
+  bottom: 200px;
+  left: 410px;
+  animation: move_1 ease-in 1000ms;
+
+}
+
+.cloud_26 {
+  @extend %link;
+  bottom: 270px;
+  left: 425px;
+  animation: move_2 ease-in 2000ms;
+
+}
+
+.cloud_27 {
+  @extend %link;
+  bottom: 250px;
+  left: 450px;
+  animation: move_3 ease-in 1500ms;
+
+}
+
+.cloud_28 {
+  @extend %link;
+  bottom: 100px;
+  left: 465px;
   animation: move_1 ease-in 3000ms;
 
+}
+
+.cloud_29 {
+  @extend %link;
+  bottom: 250px;
+  left: 480px;
+  animation: move_2 ease-in 1000ms;
+
+}
+
+.cloud_30 {
+  @extend %link;
+  bottom: 215px;
+  left: 495px;
+  animation: move_1 ease-in 5000ms;
+
+}
+
+.cloud_31 {
+  @extend %link;
+  bottom: 300px;
+  left: 510px;
+  animation: move_2 ease-in 1500ms;
+
+}
+
+.cloud_32 {
+  @extend %link;
+  bottom: 250px;
+  left: 525px;
+  animation: move_3 ease-in 3000ms;
+
+}
+
+.cloud_33 {
+  @extend %link;
+  bottom: 200px;
+  left: 540px;
+  animation: move_1 ease-in 1000ms;
+}
+
+.cloud_34 {
+  @extend %link;
+  bottom: 300px;
+  left: 555px;
+  animation: move_2 ease-in 7000ms;
+
+}
+
+.cloud_35 {
+  @extend %link;
+  bottom: 200px;
+  left: 570px;
+  animation: move_3 ease-in 1000ms;
+
+}
+
+.cloud_36 {
+  @extend %link;
+  bottom: 270px;
+  left: 585px;
+  animation: move_1 ease-in 2000ms;
+
+}
+
+.cloud_37 {
+  @extend %link;
+  bottom: 250px;
+  left: 600px;
+  animation: move_2 ease-in 1500ms;
+
+}
+
+.cloud_38 {
+  @extend %link;
+  bottom: 75px;
+  left: 615px;
+  animation: move_3 ease-in 3000ms;
+
+}
+
+.cloud_39 {
+  @extend %link;
+  bottom: 250px;
+  left: 630px;
+  animation: move_1 ease-in 1000ms;
+
+}
+
+.cloud_40 {
+  @extend %link;
+  bottom: 215px;
+  left: 645px;
+  animation: move_2 ease-in 5000ms;
+
+}
+
+.cloud_41 {
+  @extend %link;
+  bottom: 300px;
+  left: 660px;
+  animation: move_3 ease-in 1500ms;
+
+}
+
+.cloud_42 {
+  @extend %link;
+  bottom: 250px;
+  left: 675px;
+  animation: move_1 ease-in 3000ms;
+
+}
+
+.cloud_43 {
+  @extend %link;
+  bottom: 200px;
+  left: 690px;
+  animation: move_2 ease-in 1000ms;
+}
+
+.cloud_44 {
+  @extend %link;
+  bottom: 300px;
+  left: 705px;
+  animation: move_3 ease-in 7000ms;
+
+}
+
+.cloud_45 {
+  @extend %link;
+  bottom: 200px;
+  left: 720px;
+  animation: move_1 ease-in 1000ms;
+
+}
+
+.cloud_46 {
+  @extend %link;
+  bottom: 270px;
+  left: 735px;
+  animation: move_2 ease-in 2000ms;
+
+}
+
+.cloud_47 {
+  @extend %link;
+  bottom: 250px;
+  left: 750px;
+  animation: move_3 ease-in 1500ms;
+
+}
+
+.cloud_48 {
+  @extend %link;
+  bottom: 21px;
+  left: 765px;
+  animation: move_1 ease-in 3000ms;
+
+}
+
+.cloud_49 {
+  @extend %link;
+  bottom: 250px;
+  left: 780px;
+  animation: move_2 ease-in 1000ms;
+
+}
+
+.cloud_50 {
+  @extend %link;
+  bottom: 75px;
+  left: 790px;
+  animation: move_3 ease-in 5000ms;
+
+}
+
+.cloud_51 {
+  @extend %link;
+  bottom: 300px;
+  left: 905px;
+  animation: move_1 ease-in 1500ms;
+
+}
+
+.cloud_52 {
+  @extend %link;
+  bottom: 250px;
+  left: 920px;
+  animation: move_2 ease-in 3000ms;
+
+}
+
+.cloud_53 {
+  @extend %link;
+  bottom: 200px;
+  left: 935px;
+  animation: move_3 ease-in 1000ms;
 }
 
 
@@ -206,11 +438,18 @@
   border-radius: 50px;
   width: 35px;
   height: 35px;
-  background: rgb(232, 254, 255);
-  background: radial-gradient(circle, rgba(232, 254, 255, 1) 0%, rgba(237, 240, 245, 1) 100%);
+  background: hsla(332, 53%, 82%, 1);
+
+  background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+
+
   scale: (1);
   opacity: 1;
-  
+
 }
 
 @keyframes move_1 {
@@ -247,19 +486,14 @@
   }
 }
 
-/* @keyframes move_2 {
+@keyframes neclece_1 {
   0% {
-    right: -100px;
-    scale: (1.5);
-  }
-
-  50% {
-    right: 500px;
-    scale: (1);
+    bottom: 200px;
+    left: 0px;
   }
 
   100% {
-    right: -100px;
-    scale: (1.5);
+    top: 90px;
+    left: 50%;
   }
-}  */
+}

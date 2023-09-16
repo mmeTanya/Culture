@@ -160,7 +160,7 @@
   @extend %link;
   bottom: 250px;
   left: 305px;
-  animation: move_2 ease-in 3000ms;
+  animation: neclece_20 ease-in 3000ms;
 
 }
 
@@ -168,14 +168,14 @@
   @extend %link;
   bottom: 200px;
   left: 330px;
-  animation: move_3 ease-in 1000ms;
+  animation: neclece_21 ease-in 1000ms;
 }
 
 .cloud_22 {
   @extend %link;
   bottom: 300px;
   left: 345px;
-  animation: move_1 ease-in 7000ms;
+  animation: neclece_22 ease-in 7000ms;
 
 }
 
@@ -183,7 +183,7 @@
   @extend %link;
   bottom: 250px;
   left: 370px;
-  animation: move_2 ease-in 1500ms;
+  animation: neclece_23 ease-in 1500ms;
 
 }
 
@@ -191,7 +191,7 @@
   @extend %link;
   bottom: 200px;
   left: 395px;
-  animation: move_3 ease-in 3000ms;
+  animation: neclece_24 ease-in 3000ms;
 
 }
 
@@ -199,7 +199,7 @@
   @extend %link;
   bottom: 200px;
   left: 410px;
-  animation: move_1 ease-in 1000ms;
+  animation: neclece_25 ease-in 1000ms;
 
 }
 
@@ -207,7 +207,7 @@
   @extend %link;
   bottom: 270px;
   left: 425px;
-  animation: move_2 ease-in 2000ms;
+  animation: neclece_26 ease-in 2000ms;
 
 }
 
@@ -215,7 +215,7 @@
   @extend %link;
   bottom: 250px;
   left: 450px;
-  animation: move_3 ease-in 1500ms;
+  animation: neclece_27 ease-in 1500ms;
 
 }
 
@@ -1433,7 +1433,7 @@
   }
 }
 
-@keyframes neclece_1 {
+@keyframes neclece_20 {
   0% {
     top: 0;
     scale: (1);
@@ -1445,7 +1445,8 @@
   }
 
   50% {
-    bottom: 200px;
+    bottom: 250px;
+    left: 305px;
     scale: (2);
   }
 
@@ -1455,7 +1456,7 @@
   }
 }
 
-@keyframes neclece_1 {
+@keyframes neclece_21 {
   0% {
     top: 0;
     scale: (1);
@@ -1468,6 +1469,7 @@
 
   50% {
     bottom: 200px;
+    left: 330px;
     scale: (2);
   }
 
@@ -1477,7 +1479,7 @@
   }
 }
 
-@keyframes neclece_1 {
+@keyframes neclece_22 {
   0% {
     top: 0;
     scale: (1);
@@ -1489,7 +1491,8 @@
   }
 
   50% {
-    bottom: 200px;
+    bottom: 300px;
+    left: 345px;
     scale: (2);
   }
 
@@ -1499,7 +1502,7 @@
   }
 }
 
-@keyframes neclece_1 {
+@keyframes neclece_23 {
   0% {
     top: 0;
     scale: (1);
@@ -1511,7 +1514,8 @@
   }
 
   50% {
-    bottom: 200px;
+    bottom: 250px;
+    left: 370px;
     scale: (2);
   }
 
@@ -1521,7 +1525,7 @@
   }
 }
 
-@keyframes neclece_1 {
+@keyframes neclece_24 {
   0% {
     top: 0;
     scale: (1);
@@ -1534,6 +1538,7 @@
 
   50% {
     bottom: 200px;
+    left: 395px;
     scale: (2);
   }
 
@@ -1543,7 +1548,7 @@
   }
 }
 
-@keyframes neclece_1 {
+@keyframes neclece_25 {
   0% {
     top: 0;
     scale: (1);
@@ -1556,6 +1561,7 @@
 
   50% {
     bottom: 200px;
+    left: 410px;
     scale: (2);
   }
 
@@ -1565,7 +1571,7 @@
   }
 }
 
-@keyframes neclece_1 {
+@keyframes neclece_26 {
   0% {
     top: 0;
     scale: (1);
@@ -1577,7 +1583,8 @@
   }
 
   50% {
-    bottom: 200px;
+    bottom: 270px;
+    left: 425px;
     scale: (2);
   }
 
@@ -1587,7 +1594,7 @@
   }
 }
 
-@keyframes neclece_1 {
+@keyframes neclece_27 {
   0% {
     top: 0;
     scale: (1);
@@ -1599,7 +1606,8 @@
   }
 
   50% {
-    bottom: 200px;
+    bottom: 250px;
+    left: 450px;
     scale: (2);
   }
 

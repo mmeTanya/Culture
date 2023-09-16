@@ -223,7 +223,7 @@
   @extend %link;
   bottom: 100px;
   left: 465px;
-  animation: move_1 ease-in 3000ms;
+  animation: neclece_28 ease-in 3000ms;
 
 }
 
@@ -231,7 +231,7 @@
   @extend %link;
   bottom: 250px;
   left: 480px;
-  animation: move_2 ease-in 1000ms;
+  animation: neclece_29 ease-in 1000ms;
 
 }
 
@@ -239,7 +239,7 @@
   @extend %link;
   bottom: 215px;
   left: 495px;
-  animation: move_1 ease-in 5000ms;
+  animation: neclece_30 ease-in 5000ms;
 
 }
 
@@ -247,48 +247,8 @@
   @extend %link;
   bottom: 300px;
   left: 510px;
-  animation: move_2 ease-in 1500ms;
-
 }
 
-.cloud_32 {
-  @extend %link;
-  bottom: 250px;
-  left: 525px;
-  animation: move_3 ease-in 3000ms;
-
-}
-
-.cloud_33 {
-  @extend %link;
-  bottom: 200px;
-  left: 540px;
-  animation: move_1 ease-in 1000ms;
-}
-
-.cloud_34 {
-  @extend %link;
-  bottom: 300px;
-  left: 555px;
-  animation: move_2 ease-in 7000ms;
-
-}
-
-.cloud_35 {
-  @extend %link;
-  bottom: 200px;
-  left: 570px;
-  animation: move_3 ease-in 1000ms;
-
-}
-
-.cloud_36 {
-  @extend %link;
-  bottom: 270px;
-  left: 585px;
-  animation: move_1 ease-in 2000ms;
-
-}
 
 .cloud_37 {
   @extend %link;
@@ -448,6 +408,7 @@
 
 //animation
 
+
 @keyframes neclece_1 {
   0% {
     top: 0;
@@ -461,6 +422,7 @@
 
   50% {
     bottom: 200px;
+    left: 0px;
     scale: (2);
   }
 
@@ -470,7 +432,7 @@
   }
 }
 
-@keyframes neclece_1 {
+@keyframes neclece_2 {
   0% {
     top: 0;
     scale: (1);
@@ -482,557 +444,8 @@
   }
 
   50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
-    scale: (2);
-  }
-
-  100% {
-    top: 90px;
-    left: 50%;
-  }
-}
-
-@keyframes neclece_1 {
-  0% {
-    top: 0;
-    scale: (1);
-  }
-
-  20% {
-    top: 300px;
-    scale: (1);
-  }
-
-  50% {
-    bottom: 200px;
+    bottom: 270px;
+    left: 15px;
     scale: (2);
   }
 
@@ -1617,7 +1030,76 @@
   }
 }
 
-@keyframes neclece_1 {
+@keyframes neclece_28 {
+  0% {
+    top: 0;
+    scale: (1);
+  }
+
+  20% {
+    top: 300px;
+    scale: (1);
+  }
+
+  50% {
+    bottom: 100px;
+    left: 465px;
+    scale: (2);
+  }
+
+  100% {
+    top: 90px;
+    left: 50%;
+  }
+}
+
+@keyframes neclece_29 {
+  0% {
+    top: 0;
+    scale: (1);
+  }
+
+  20% {
+    top: 300px;
+    scale: (1);
+  }
+
+  50% {
+    bottom: 250px;
+    left: 480px;
+    scale: (2);
+  }
+
+  100% {
+    top: 90px;
+    left: 50%;
+  }
+}
+
+@keyframes neclece_30 {
+  0% {
+    top: 0;
+    scale: (1);
+  }
+
+  20% {
+    top: 300px;
+    scale: (1);
+  }
+
+  50% {
+    bottom: 215px;
+    left: 495px;
+    scale: (2);
+  }
+
+  100% {
+    top: 90px;
+    left: 50%;
+  }
+}
+
+@keyframes neclece_31 {
   0% {
     top: 0;
     scale: (1);
@@ -1639,7 +1121,7 @@
   }
 }
 
-@keyframes neclece_1 {
+@keyframes neclece_31 {
   0% {
     top: 0;
     scale: (1);
@@ -1661,7 +1143,7 @@
   }
 }
 
-@keyframes neclece_1 {
+@keyframes neclece_31 {
   0% {
     top: 0;
     scale: (1);
@@ -1683,7 +1165,272 @@
   }
 }
 
-@keyframes neclece_1 {
+@keyframes neclece_31 {
+  0% {
+    top: 0;
+    scale: (1);
+  }
+
+  20% {
+    top: 300px;
+    scale: (1);
+  }
+
+  50% {
+    bottom: 200px;
+    scale: (2);
+  }
+
+  100% {
+    top: 90px;
+    left: 50%;
+  }
+}
+
+@keyframes neclece_31 {
+  0% {
+    top: 0;
+    scale: (1);
+  }
+
+  20% {
+    top: 300px;
+    scale: (1);
+  }
+
+  50% {
+    bottom: 200px;
+    scale: (2);
+  }
+
+  100% {
+    top: 90px;
+    left: 50%;
+  }
+}
+
+@keyframes neclece_31 {
+  0% {
+    top: 0;
+    scale: (1);
+  }
+
+  20% {
+    top: 300px;
+    scale: (1);
+  }
+
+  50% {
+    bottom: 200px;
+    scale: (2);
+  }
+
+  100% {
+    top: 90px;
+    left: 50%;
+  }
+}
+
+
+@keyframes neclece_31 {
+  0% {
+    top: 0;
+    scale: (1);
+  }
+
+  20% {
+    top: 300px;
+    scale: (1);
+  }
+
+  50% {
+    bottom: 200px;
+    scale: (2);
+  }
+
+  100% {
+    top: 90px;
+    left: 50%;
+  }
+}
+
+@keyframes neclece_31 {
+  0% {
+    top: 0;
+    scale: (1);
+  }
+
+  20% {
+    top: 300px;
+    scale: (1);
+  }
+
+  50% {
+    bottom: 200px;
+    scale: (2);
+  }
+
+  100% {
+    top: 90px;
+    left: 50%;
+  }
+}
+
+@keyframes neclece_31 {
+  0% {
+    top: 0;
+    scale: (1);
+  }
+
+  20% {
+    top: 300px;
+    scale: (1);
+  }
+
+  50% {
+    bottom: 200px;
+    scale: (2);
+  }
+
+  100% {
+    top: 90px;
+    left: 50%;
+  }
+}
+
+@keyframes neclece_31 {
+  0% {
+    top: 0;
+    scale: (1);
+  }
+
+  20% {
+    top: 300px;
+    scale: (1);
+  }
+
+  50% {
+    bottom: 200px;
+    scale: (2);
+  }
+
+  100% {
+    top: 90px;
+    left: 50%;
+  }
+}
+
+@keyframes neclece_31 {
+  0% {
+    top: 0;
+    scale: (1);
+  }
+
+  20% {
+    top: 300px;
+    scale: (1);
+  }
+
+  50% {
+    bottom: 200px;
+    scale: (2);
+  }
+
+  100% {
+    top: 90px;
+    left: 50%;
+  }
+}
+
+@keyframes neclece_31 {
+  0% {
+    top: 0;
+    scale: (1);
+  }
+
+  20% {
+    top: 300px;
+    scale: (1);
+  }
+
+  50% {
+    bottom: 200px;
+    scale: (2);
+  }
+
+  100% {
+    top: 90px;
+    left: 50%;
+  }
+}
+
+@keyframes neclece_31 {
+  0% {
+    top: 0;
+    scale: (1);
+  }
+
+  20% {
+    top: 300px;
+    scale: (1);
+  }
+
+  50% {
+    bottom: 200px;
+    scale: (2);
+  }
+
+  100% {
+    top: 90px;
+    left: 50%;
+  }
+}
+
+@keyframes neclece_31 {
+  0% {
+    top: 0;
+    scale: (1);
+  }
+
+  20% {
+    top: 300px;
+    scale: (1);
+  }
+
+  50% {
+    bottom: 200px;
+    scale: (2);
+  }
+
+  100% {
+    top: 90px;
+    left: 50%;
+  }
+}
+
+@keyframes neclece_31 {
+  0% {
+    top: 0;
+    scale: (1);
+  }
+
+  20% {
+    top: 300px;
+    scale: (1);
+  }
+
+  50% {
+    bottom: 200px;
+    scale: (2);
+  }
+
+  100% {
+    top: 90px;
+    left: 50%;
+  }
+}
+
+@keyframes neclece_31 {
   0% {
     top: 0;
     scale: (1);

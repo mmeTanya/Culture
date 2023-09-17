@@ -13,65 +13,65 @@
   @extend %link;
   top: 90px;
   left: 50%;
-  animation: neclece_1 ease-in 5s;
+  animation: neclece_1 5s linear;
 }
 
 .cloud_2 {
   @extend %link;
-  top: 90px;
-  left: 50%;
+  top: 110px;
+  left: 53%;
   animation: neclece_2 ease-in 2s;
 }
 
 .cloud_3 {
   @extend %link;
-  top: 90px;
-  left: 50%;
+  top: 110px;
+  left: 47%;
   animation: neclece_3 ease-in 3s;
 
 }
 
 .cloud_4 {
   @extend %link;
-  top: 90px;
-  left: 50%;
+  top: 130px;
+  left: 56%;
   animation: neclece_4 ease-in 7000ms;
 
 }
 
 .cloud_5 {
   @extend %link;
-  top: 90px;
-  left: 50%;
+  top: 130px;
+  left: 44%;
   animation: neclece_5 ease-in 7000ms;
 }
 
 .cloud_6 {
   @extend %link;
-  top: 90px;
-  left: 50%;
+  top: 160px;
+  left: 58%;
   animation: neclece_6 ease-in 5000ms;
 }
 
 .cloud_7 {
   @extend %link;
-  top: 90px;
-  left: 50%;
+  top: 160px;
+  left: 42%;
   animation: neclece_7 ease-in 1500ms;
 }
 
 .cloud_8 {
   @extend %link;
-  top: 90px;
-  left: 50%;
+  top: 190px;
+  left: 60%;
   animation: neclece_8 ease-in 3000ms;
 
 }
 
 .cloud_9 {
   @extend %link;
-  top: 90px;
-  left: 50%;
+  top: 190px;
+  left: 40%;
   animation: neclece_9 ease-in 1000ms;
 }
 
@@ -437,7 +437,7 @@
 
 
   scale: (1);
-  opacity: 0;
+  
 
 }
 
@@ -447,20 +447,19 @@
   0% {
     top: 0;
     scale: (1);
-    opacity: 1;
+    
   }
 
   50% {
     top: 750px;
     left: 0px;
     scale: (2);
-    opacity: 1;
+    
   }
 
   100% {
     top: 90px;
     left: 50%;
-    opacity: 1;
   }
 }
 

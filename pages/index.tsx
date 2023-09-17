@@ -3,7 +3,6 @@ import Head from 'next/head'
 import MobileNav from "../components/mobile-nav";
 import Clouds from '../components/clouds'
 import Hero from '../components/hero'
-import Footer from '../components/footer'
 import GoUp from '../components/goUp'
 
 

@@ -1,8 +1,22 @@
+import React, { useState, useEffect } from 'react';
 import s from "../styles/clouds.module.scss";
 
 const Clouds = () => {
+
+  const [status, setStatus] = useState(false);
+
+  useEffect(() => {
+    onLoadInfo()
+  }, []);
+
+  const onLoadInfo = async () => {
+    setInterval(() => setStatus(true), 1000);
+  }
+
+
   return (
-    <section className={s.sky}>
+    { status === false && (< section className={s.s} ></section>) ||
+    (<section className={s.sky} >
       <button className={s.cloud_1}> </button>
       <button className={s.cloud_2}> </button>
       <button className={s.cloud_3}> </button>
@@ -56,8 +70,7 @@ const Clouds = () => {
       <button className={s.cloud_51}></button>
       <button className={s.cloud_52}></button>
       <button className={s.cloud_53}> </button>
-      
-    </section>
+    </section>)}
   );
 };
 

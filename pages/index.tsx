@@ -10,22 +10,24 @@ const Home: NextPage = () => {
 
 
   return (
-    <div className='overlay' >
-      <Clouds />
-      <Head>
+    <div  >
+      <div><Head>
         <title>Свято-Вознесенська парафія</title>
         <meta name="description" content="Свято-Вознесенська парафія, Українська православна церква Київського Патріархату" />
         <link rel="icon" href="/Ukrainian_Orthodox_Church_emblem.png" />
       </Head>
-      <div className='container'>
-        <main>
-          <MobileNav />
-          <Hero />
-        </main>
-        <footer>
-        </footer>
+        <div className='overlay' >
+         <Clouds />
+          <div className='container'>
+            <main>
+              <MobileNav />
+              <Hero />
+            </main>
+            <footer>
+            </footer>
+          </div>
+          <GoUp /></div>
       </div>
-      <GoUp />
     </div>
   )
 }

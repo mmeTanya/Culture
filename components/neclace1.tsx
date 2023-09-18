@@ -5,6 +5,7 @@ const Neclace1 = () => {
 
   return (
     <section className={s.sky} >
+      
       <button className={s.cloud_1}> </button>
       <button className={s.cloud_2}> </button>
       <button className={s.cloud_3}> </button>
@@ -58,6 +59,7 @@ const Neclace1 = () => {
       <button className={s.cloud_51}></button>
       <button className={s.cloud_52}></button>
       <button className={s.cloud_53}> </button>
+      
     </section>
 
   );

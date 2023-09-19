@@ -1,11 +1,202 @@
 .sky {
   z-index: 975;
-  overflow: hidden;
   width: 100%;
   height: 100%;
   position: relative;
   min-height: 700px;
   padding: 10px;
+
+}
+
+.cloud_1 {
+  @extend %link;
+  top: 90px;
+  left: 50%;
+  animation: neclece_1 5s linear;
+}
+
+.cloud_2 {
+  @extend %link;
+  top: 117px;
+  left: 60%;
+  animation: neclece_2 ease-in 2s;
+}
+
+.cloud_3 {
+  @extend %link;
+  top: 140px;
+  left: 67%;
+  animation: neclece_3 ease-in 3s;
+
+}
+
+.cloud_4 {
+  @extend %link;
+  top: 170px;
+  left: 73%;
+  animation: neclece_4 ease-in 7000ms;
+
+}
+
+.cloud_5 {
+  @extend %link;
+  top: 117px;
+  left: 37%;
+  animation: neclece_5 ease-in 7000ms;
+}
+
+.cloud_6 {
+  @extend %link;
+  top: 200px;
+  left: 79%;
+  animation: neclece_6 ease-in 5000ms;
+}
+
+.cloud_7 {
+  @extend %link;
+  top: 150px;
+  left: 27%;
+  animation: neclece_7 ease-in 1500ms;
+}
+
+.cloud_8 {
+  @extend %link;
+  top: 235px;
+  left: 83%;
+  animation: neclece_8 ease-in 3000ms;
+
+}
+
+.cloud_9 {
+  @extend %link;
+  top: 190px;
+  left: 20%;
+  animation: neclece_9 ease-in 1000ms;
+}
+
+.cloud_10 {
+  @extend %link;
+  top: 270px;
+  left: 86%;
+  animation: neclece_10 ease-in 7000ms;
+}
+
+.cloud_11 {
+  @extend %link;
+  top: 225px;
+  left: 16%;
+  animation: neclece_11 ease-in 1500ms;
+
+}
+
+.cloud_12 {
+  @extend %link;
+  top: 305px;
+  left: 88%;
+  animation: neclece_12 ease-in 3000ms;
+
+}
+
+.cloud_13 {
+  @extend %link;
+  top: 260px;
+  left: 12%;
+  animation: neclece_13 ease-in 1000ms;
+
+}
+
+.cloud_14 {
+  @extend %link;
+  top: 337px;
+  left: 89%;
+  animation: neclece_14 ease-in 2000ms;
+
+}
+
+.cloud_15 {
+  @extend %link;
+  top: 295px;
+  left: 9%;
+  animation: neclece_15 ease-in 1500ms;
+
+}
+
+.cloud_16 {
+  @extend %link;
+  top: 375px;
+  left: 88%;
+  animation: neclece_16 ease-in 3000ms;
+
+}
+
+.cloud_17 {
+  @extend %link;
+  top: 335px;
+  left: 7%;
+  animation: neclece_17 ease-in 1000ms;
+
+}
+
+.cloud_18 {
+  @extend %link;
+  top: 410px;
+  left: 81%;
+  animation: neclece_18 ease-in 5000ms;
+
+}
+
+.cloud_19 {
+  @extend %link;
+  top: 379px;
+  left: 9%;
+  animation: neclece_19 ease-in 1500ms;
+
+}
+
+.cloud_20 {
+  @extend %link;
+  top: 445px;
+  left: 73%;
+  animation: neclece_20 ease-in 3000ms;
+
+}
+
+.cloud_21 {
+  @extend %link;
+  top: 420px;
+  left: 16%;
+  animation: neclece_21 ease-in 1000ms;
+}
+
+.cloud_22 {
+  @extend %link;
+  top: 465px;
+  left: 63%;
+  animation: neclece_22 ease-in 7000ms;
+
+}
+
+.cloud_23 {
+  @extend %link;
+  top: 460px;
+  left: 25%;
+  animation: neclece_23 ease-in 1500ms;
+
+}
+
+.cloud_24 {
+  @extend %link;
+  top: 485px;
+  left: 52%;
+  animation: neclece_24 ease-in 3000ms;
+
+}
+
+.cloud_25 {
+  @extend %link;
+  top: 485px;
+  left: 38%;
+  animation: neclece_25 ease-in 1000ms;
 
 }
 
@@ -341,91 +532,6 @@
 
 }
 
-/* .cloud_43 {
-  @extend %link;
-  top: 90px;
-  left: 50%;
-  animation: neclece_43 ease-in 5000ms;
-}
-
-.cloud_44 {
-  @extend %link;
-  top: 90px;
-  left: 50%;
-  animation: neclece_44 ease-in 5000ms;
-
-}
-
-.cloud_45 {
-  @extend %link;
-  top: 90px;
-  left: 50%;
-  animation: neclece_45 ease-in 5000ms;
-
-}
-
-.cloud_46 {
-  @extend %link;
-  top: 90px;
-  left: 50%;
-  animation: neclece_46 ease-in 5000ms;
-
-}
-
-.cloud_47 {
-  @extend %link;
-  top: 90px;
-  left: 50%;
-  animation: neclece_47 ease-in 5000ms;
-
-}
-
-.cloud_48 {
-  @extend %link;
-  top: 90px;
-  left: 50%;
-  animation: neclece_48 ease-in 5000ms;
-
-}
-
-.cloud_49 {
-  @extend %link;
-  top: 90px;
-  left: 50%;
-  animation: neclece_49 ease-in 5000ms;
-
-}
-
-.cloud_50 {
-  @extend %link;
-  top: 90px;
-  left: 50%;
-  animation: neclece_50 ease-in 5000ms;
-
-}
-
-.cloud_51 {
-  @extend %link;
-  top: 90px;
-  left: 50%;
-  animation: neclece_51 ease-in 5000ms;
-}
-
-.cloud_52 {
-  @extend %link;
-  top: 90px;
-  left: 50%;
-  animation: neclece_52 ease-in 5000ms;
-
-}
-
-.cloud_53 {
-  @extend %link;
-  top: 90px;
-  left: 50%;
-  animation: neclece_53 ease-in 5000ms;
-
-} */
 
 
 
@@ -433,8 +539,8 @@
   display: block;
   position: absolute;
   border-radius: 50px;
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   background: hsla(332, 53%, 82%, 1);
 
   background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);

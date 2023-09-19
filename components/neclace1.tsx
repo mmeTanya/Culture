@@ -41,7 +41,7 @@ const Neclace1 = () => {
       <button className={s.cloud_33}> </button>
       <button className={s.cloud_34}> </button>
       <button className={s.cloud_35}> </button>
-      <button className={s.cloud_36}></button>
+{/*       <button className={s.cloud_36}></button>
       <button className={s.cloud_37}></button>
       <button className={s.cloud_38}> </button>
       <button className={s.cloud_39}></button>
@@ -58,7 +58,7 @@ const Neclace1 = () => {
       <button className={s.cloud_50}> </button>
       <button className={s.cloud_51}></button>
       <button className={s.cloud_52}></button>
-      <button className={s.cloud_53}> </button>
+      <button className={s.cloud_53}> </button> */}
       
     </section>
 

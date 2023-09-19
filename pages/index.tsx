@@ -17,10 +17,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/Ukrainian_Orthodox_Church_emblem.png" />
       </Head>
         <div className='overlay' >
-         <Clouds />
+         
           <div className='container'>
             <main>
               <MobileNav />
+              <Clouds />
               <Hero />
             </main>
             <footer>

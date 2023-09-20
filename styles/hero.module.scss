@@ -22,14 +22,14 @@
   &__title {
     font-family: Playfair Display, serif;
     font-style: italic;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 70px;
     line-height: 1.175;
     letter-spacing: 0.02em;
     color: rgb(136 126 242);
 
     @media screen and (max-width: 800px) {
-      font-size: 30px;
+      font-size: 39px;
     }
   }
 
@@ -78,11 +78,15 @@
   &__list {
     position: absolute;
     top: 83%;
-    left: 9%;
+    right: 5%;
     z-index: 77;
     text-align: start;
     list-style: disc;
     padding: 0 30px;
+
+    @media screen and (max-width: 900px) {
+      top: 73%;
+    }
   }
 
   &__item_cover {
@@ -100,6 +104,8 @@
     letter-spacing: 0.02em;
     color:#ccfa00;
 
+    
+
     &:hover,
     &:focus {
       color: #E59560;
@@ -115,6 +121,10 @@
       }
 
     }
+
+    
+    
+    
   }
 
 }

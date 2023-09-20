@@ -2,8 +2,8 @@
   height: 100%;
   position: relative;
   min-height: 700px;
-  margin:10px 100px;
- 
+  margin: 10px 100px;
+
   @media screen and (max-width: 500px) {
     margin: 50px;
   }
@@ -18,134 +18,120 @@
 
 .cloud_2 {
   @extend %link;
-  top: 117px;
-  left: 60%;
+  top: 120px;
+  left: 61%;
   animation: neclece_2 ease-in 2s;
-  }
+}
 
 .cloud_3 {
   @extend %link;
-  top: 140px;
-  left: 67%;
+  top: 157px;
+  left: 70%;
   animation: neclece_3 ease-in 1s;
 }
 
 .cloud_4 {
   @extend %link;
-  top: 170px;
-  left: 73%;
+  top: 200px;
+  left: 79%;
   animation: neclece_4 ease-in 3s;
-  }
+}
 
 .cloud_5 {
   @extend %link;
   top: 117px;
-  left: 37%;
-  animation: neclece_5 ease-in 3s;
+  left: 38%;
+  animation: neclece_5 ease-in 1s;
 }
 
 .cloud_6 {
   @extend %link;
-  top: 200px;
+  top: 196px;
   left: 79%;
   animation: neclece_6 ease-in 5s;
 }
 
 .cloud_7 {
   @extend %link;
-  top: 150px;
-  left: 27%;
+  top: 155px;
+  left: 29%;
   animation: neclece_7 ease-in 1500ms;
 }
 
 .cloud_8 {
   @extend %link;
-  top: 235px;
-  left: 83%;
+  top: 244px;
+  left: 84%;
   animation: neclece_8 ease-in 3s;
 }
 
 .cloud_9 {
   @extend %link;
-  top: 190px;
-  left: 20%;
+  top: 193px;
+  left: 21%;
   animation: neclece_9 ease-in 1s;
 }
 
 .cloud_10 {
   @extend %link;
-  top: 270px;
-  left: 86%;
+  top: 292px;
+  left: 87%;
   animation: neclece_10 ease-in 5s;
 }
 
 .cloud_11 {
   @extend %link;
-  top: 225px;
+  top: 235px;
   left: 16%;
   animation: neclece_11 ease-in 1500ms;
 }
 
 .cloud_12 {
   @extend %link;
-  top: 305px;
+  top: 339px;
   left: 88%;
   animation: neclece_12 ease-in 3s;
 }
 
 .cloud_13 {
   @extend %link;
-  top: 260px;
+  top: 280px;
   left: 12%;
   animation: neclece_13 ease-in 1s;
 }
 
-.cloud_14 {
-  @extend %link;
-  top: 337px;
-  left: 89%;
-  animation: neclece_14 ease-in 2s;
-}
-
 .cloud_15 {
   @extend %link;
-  top: 295px;
-  left: 9%;
+  top: 327px;
+  left: 11%;
   animation: neclece_15 ease-in 1500ms;
 }
 
 .cloud_16 {
   @extend %link;
-  top: 375px;
-  left: 88%;
+  top: 388px;
+  left: 86%;
   animation: neclece_16 ease-in 3s;
-}
-
-.cloud_17 {
-  @extend %link;
-  top: 335px;
-  left: 7%;
-  animation: neclece_17 ease-in 1s;
 }
 
 .cloud_18 {
   @extend %link;
-  top: 410px;
-  left: 81%;
+  top: 429px;
+  left: 80%;
   animation: neclece_18 ease-in 5s;
 }
 
 .cloud_19 {
   @extend %link;
-  top: 379px;
-  left: 9%;
+  top: 377px;
+  left: 10%;
   animation: neclece_19 ease-in 1500ms;
 }
 
 .cloud_20 {
   @extend %link;
-  top: 445px;
-  left: 73%;
+  top: 465px;
+  left: 72%;
   animation: neclece_20 ease-in 3s;
 }
 
@@ -158,29 +144,29 @@
 
 .cloud_22 {
   @extend %link;
-  top: 465px;
-  left: 63%;
+  top: 493px;
+  left: 61%;
   animation: neclece_22 ease-in 5s;
 }
 
 .cloud_23 {
   @extend %link;
-  top: 460px;
-  left: 25%;
+  top: 463px;
+  left: 23%;
   animation: neclece_23 ease-in 1500ms;
 }
 
 .cloud_24 {
   @extend %link;
-  top: 485px;
-  left: 52%;
+  top: 510px;
+  left: 49%;
   animation: neclece_24 ease-in 3s;
 }
 
 .cloud_25 {
   @extend %link;
-  top: 485px;
-  left: 38%;
+  top: 497px;
+  left: 35%;
   animation: neclece_25 ease-in 1s;
 }
 
@@ -497,11 +483,9 @@
   border-radius: 50px;
   width: 50px;
   height: 50px;
-  background: hsla(332, 53%, 82%, 1);
-  background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
-  background: -moz-linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
-  background: -webkit-linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
-  
+  background: rgb(252,252,252);
+background: linear-gradient(70deg, rgba(252,252,252,1) 0%, rgba(244,201,237,1) 100%);
+
 }
 
 //animation
@@ -509,14 +493,14 @@
 @keyframes neclece_1 {
   0% {
     top: 0;
-   
+
 
   }
 
   50% {
     top: 750px;
     left: 0px;
-    
+
 
   }
 
@@ -529,14 +513,14 @@
 @keyframes neclece_2 {
   0% {
     top: 0;
-    
+
     opacity: 1;
   }
 
   50% {
     top: 550px;
     left: 20px;
-    
+
     opacity: 1;
   }
 
@@ -550,14 +534,14 @@
 @keyframes neclece_3 {
   0% {
     top: 0;
-    
+
     opacity: 1;
   }
 
   50% {
     top: 750px;
     left: 40px;
-    
+
     opacity: 1;
   }
 
@@ -571,7 +555,7 @@
 @keyframes neclece_4 {
   0% {
     top: 0;
-   
+
     opacity: 1;
   }
 
@@ -579,7 +563,7 @@
   50% {
     top: 500px;
     left: 60px;
-    
+
     opacity: 1;
   }
 
@@ -593,14 +577,14 @@
 @keyframes neclece_5 {
   0% {
     top: 0;
-   
+
     opacity: 1;
   }
 
   50% {
     top: 850px;
     left: 80px;
-   
+
     opacity: 1;
   }
 
@@ -614,14 +598,14 @@
 @keyframes neclece_6 {
   0% {
     top: 0;
-    
+
     opacity: 1;
   }
 
   50% {
     top: 750px;
     left: 100px;
-   
+
     opacity: 1;
   }
 
@@ -635,14 +619,14 @@
 @keyframes neclece_7 {
   0% {
     top: 0;
-    
+
     opacity: 1;
   }
 
   50% {
     top: 650px;
     left: 120px;
-    
+
     opacity: 1;
   }
 
@@ -656,14 +640,14 @@
 @keyframes neclece_8 {
   0% {
     top: 0;
-    
+
     opacity: 1;
   }
 
   50% {
     top: 750px;
     left: 140px;
-   
+
     opacity: 1;
   }
 
@@ -677,14 +661,14 @@
 @keyframes neclece_9 {
   0% {
     top: 0;
-   
+
     opacity: 1;
   }
 
   50% {
     top: 700px;
     left: 160px;
-   
+
     opacity: 1;
   }
 
@@ -698,14 +682,14 @@
 @keyframes neclece_10 {
   0% {
     top: 0;
-    
+
     opacity: 1;
   }
 
   50% {
     top: 850px;
     left: 180px;
-    
+
     opacity: 1;
   }
 
@@ -719,14 +703,14 @@
 @keyframes neclece_11 {
   0% {
     top: 0;
-    
+
     opacity: 1;
   }
 
   50% {
     top: 570px;
     left: 200px;
-    
+
     opacity: 1;
   }
 
@@ -740,7 +724,7 @@
 @keyframes neclece_12 {
   0% {
     top: 0;
-    
+
     opacity: 1;
   }
 
@@ -761,14 +745,14 @@
 @keyframes neclece_13 {
   0% {
     top: 0;
-    
+
     display: none;
   }
 
   50% {
     top: 750px;
     left: 240px;
-    
+
   }
 
   100% {
@@ -780,14 +764,14 @@
 @keyframes neclece_14 {
   0% {
     top: 0;
-   
+
     display: none;
   }
 
   50% {
     top: 450px;
     left: 260px;
-   
+
   }
 
   100% {
@@ -799,14 +783,14 @@
 @keyframes neclece_15 {
   0% {
     top: 0;
-    
+
     display: none;
   }
 
   50% {
     top: 950px;
     left: 280px;
-  
+
   }
 
   100% {
@@ -818,14 +802,14 @@
 @keyframes neclece_16 {
   0% {
     top: 0;
-    
+
     display: none;
   }
 
   50% {
     top: 750px;
     left: 300px;
-   
+
   }
 
   100% {
@@ -837,14 +821,14 @@
 @keyframes neclece_17 {
   0% {
     top: 0;
-   
+
     display: none;
   }
 
   50% {
     top: 850px;
     left: 320px;
-  
+
   }
 
   100% {
@@ -856,14 +840,14 @@
 @keyframes neclece_18 {
   0% {
     top: 0;
-    
+
     display: none;
   }
 
   50% {
     top: 700px;
     left: 340px;
-   
+
   }
 
   100% {
@@ -875,14 +859,14 @@
 @keyframes neclece_19 {
   0% {
     top: 0;
-   
+
     display: none;
   }
 
   50% {
     top: 850px;
     left: 360px;
-   
+
   }
 
   100% {
@@ -894,7 +878,7 @@
 @keyframes neclece_20 {
   0% {
     top: 0;
-    
+
     display: none;
   }
 
@@ -902,7 +886,7 @@
   50% {
     top: 950px;
     left: 380px;
-   
+
   }
 
   100% {
@@ -914,7 +898,7 @@
 @keyframes neclece_21 {
   0% {
     top: 0;
-    
+
     display: none;
   }
 
@@ -922,7 +906,7 @@
   50% {
     top: 570px;
     left: 400px;
-    
+
   }
 
   100% {
@@ -934,14 +918,14 @@
 @keyframes neclece_22 {
   0% {
     top: 0;
-    
+
     display: none;
   }
 
   50% {
     top: 750px;
     left: 420px;
-    
+
   }
 
   100% {
@@ -953,14 +937,14 @@
 @keyframes neclece_23 {
   0% {
     top: 0;
-    
+
     display: none;
   }
 
   50% {
     top: 700px;
     left: 440px;
-    
+
   }
 
   100% {
@@ -972,14 +956,14 @@
 @keyframes neclece_24 {
   0% {
     top: 0;
-    
+
     display: none;
   }
 
   50% {
     top: 390px;
     left: 460px;
-   
+
   }
 
   100% {
@@ -991,14 +975,14 @@
 @keyframes neclece_25 {
   0% {
     top: 0;
-    
+
     display: none;
   }
 
   50% {
     top: 700px;
     left: 480px;
-   
+
   }
 
   100% {
@@ -1010,15 +994,15 @@
 @keyframes neclece_26 {
   0% {
     top: 0;
-    
+
     display: none;
   }
 
   50% {
     top: 750px;
     left: 500px;
-   
-    
+
+
   }
 
   100% {
@@ -1030,7 +1014,7 @@
 @keyframes neclece_27 {
   0% {
     top: 0;
-   
+
     display: none;
   }
 
@@ -1039,7 +1023,7 @@
   50% {
     top: 850px;
     left: 500px;
-    
+
   }
 
   100% {
@@ -1051,14 +1035,14 @@
 @keyframes neclece_28 {
   0% {
     top: 0;
-    
+
     display: none;
   }
 
   50% {
     top: 350px;
     left: 520px;
-    
+
   }
 
   100% {
@@ -1070,14 +1054,14 @@
 @keyframes neclece_29 {
   0% {
     top: 0;
-   
+
     display: none;
   }
 
   50% {
     top: 700px;
     left: 540px;
-    
+
   }
 
   100% {
@@ -1089,14 +1073,14 @@
 @keyframes neclece_30 {
   0% {
     top: 0;
-    
+
     display: none;
   }
 
   50% {
     top: 750px;
     left: 560px;
-   
+
   }
 
   100% {
@@ -1108,14 +1092,14 @@
 @keyframes neclece_31 {
   0% {
     top: 0;
-    
+
     display: none;
   }
 
   50% {
     top: 350px;
     left: 580px;
-   
+
   }
 
   100% {
@@ -1127,7 +1111,7 @@
 @keyframes neclece_37 {
   0% {
     top: 0;
-    
+
     display: none;
   }
 
@@ -1135,7 +1119,7 @@
   50% {
     top: 850px;
     left: 600px;
-   
+
   }
 
   100% {
@@ -1452,3 +1436,4 @@
     left: 50%;
   }
 }
+

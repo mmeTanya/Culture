@@ -5,7 +5,6 @@ const Neclace1 = () => {
 
   return (
     <section className={s.sky} >
-
       <button className={s.cloud_1}> </button>
       <button className={s.cloud_2}> </button>
       <button className={s.cloud_3}> </button>
@@ -43,39 +42,34 @@ const Neclace1 = () => {
       <button className={s.cloud_35}> </button>
       <button className={s.cloud_36}></button>
       <button className={s.cloud_37}></button>
-      {/*  <button className={s.cloud_38}> </button> */}
+      <button className={s.cloud_38}> </button>
       <button className={s.cloud_39}></button>
-      {/*  <button className={s.cloud_40}></button> */}
+      <button className={s.cloud_40}></button>
       <button className={s.cloud_41}> </button>
-      {/*  <button className={s.cloud_42}></button> */}
+      <button className={s.cloud_42}></button>
       <button className={s.cloud_43}> </button>
-      {/*  <button className={s.cloud_44}> </button> */}
-       <button className={s.cloud_45}> </button>
-      {/* <button className={s.cloud_46}> </button> */}
-      <button className={s.cloud_47}> </button> 
-     {/* <button className={s.cloud_48}></button>  */}
+      <button className={s.cloud_44}> </button>
+      <button className={s.cloud_45}> </button>
+      <button className={s.cloud_46}> </button>
+      <button className={s.cloud_47}> </button>
+      <button className={s.cloud_48}></button>
       <button className={s.cloud_49}></button>
-     {/*  <button className={s.cloud_50}> </button> */}
+      <button className={s.cloud_50}> </button>
       <button className={s.cloud_51}></button>
-     {/*  <button className={s.cloud_52}></button> */}
+      <button className={s.cloud_52}></button>
       <button className={s.cloud_53}> </button>
-       {/*  <button className={s.cloud_38}> </button> */}
-       <button className={s.cloud_55}></button>
-      {/*  <button className={s.cloud_40}></button> */}
+      <button className={s.cloud_54}> </button>
+      <button className={s.cloud_55}></button>
+      <button className={s.cloud_56}></button>
       <button className={s.cloud_57}> </button>
-      {/*  <button className={s.cloud_42}></button> */}
+      <button className={s.cloud_58}></button>
       <button className={s.cloud_59}> </button>
-      {/*  <button className={s.cloud_44}> </button> */}
-       <button className={s.cloud_45}> </button>
-      {/* <button className={s.cloud_46}> </button> */}
-      <button className={s.cloud_47}> </button> 
-     {/* <button className={s.cloud_48}></button>  */}
-      <button className={s.cloud_49}></button>
-     {/*  <button className={s.cloud_50}> </button> */}
-      <button className={s.cloud_51}></button>
-     {/*  <button className={s.cloud_52}></button> */}
-      <button className={s.cloud_53}> </button>
-
+      <button className={s.cloud_60}> </button>
+      <button className={s.cloud_61}> </button>
+      <button className={s.cloud_62}> </button>
+      <button className={s.cloud_63}> </button>
+      <button className={s.cloud_64}></button>
+      <button className={s.cloud_65}></button>
     </section>
 
   );

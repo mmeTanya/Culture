@@ -16,19 +16,18 @@ const Home: NextPage = () => {
         <meta name="description" content="Свято-Вознесенська парафія, Українська православна церква Київського Патріархату" />
         <link rel="icon" href="/Ukrainian_Orthodox_Church_emblem.png" />
       </Head>
-        <div className='overlay' >
-         
+        <main>
+          <MobileNav />
           <div className='container'>
-            <main>
-              <MobileNav />
-              <Clouds />
-              <Hero />
-            </main>
-            <footer>
-            </footer>
+            <Clouds />
+         
           </div>
-          <GoUp /></div>
-      </div>
+          <Hero />
+        </main>
+        <footer>
+        </footer>
+        <GoUp />
+        </div>
     </div>
   )
 }

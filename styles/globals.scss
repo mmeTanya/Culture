@@ -1,13 +1,13 @@
 body {
   color: rgb(255, 255, 255);
-  background: rgb(6, 91, 118);
-  background: linear-gradient(120deg, rgba(6, 91, 118, 1) 0%, rgba(9, 5, 38, 1) 100%);
   padding: 0;
   margin: 0;
-  font-family: 'Dancing Script', cursive, 'Playfair Display', serif;
   font-size: 14px;
-  overflow-x: hidden;
+  background: blue;
+  background: linear-gradient(120deg, rgba(6, 91, 118, 1) 0%, rgba(9, 5, 38, 1) 100%);
 }
+
+
 
 h1,
 h2,
@@ -37,22 +37,21 @@ address {
   font-style: normal;
 }
 
-
-.overlay {
-  position: relative;
-  /* display: flex;
-  align-items: center; */
-  width: 100vw;
-  height: 100vh;
-}
-
 .container {
-  z-index: 2;
-  position: absolute;
-  top: 0;
+   position: relative;
   margin: 0 auto;
   min-width: 320px;
-}
+  max-width: 650px;
+  padding: 10px 50px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  
+
+  @media screen and (min-width: 1200px) {
+    margin: 50px;
+  }
+} 
 
 .goUp {
   z-index: 3;

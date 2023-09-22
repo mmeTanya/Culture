@@ -7,13 +7,14 @@ import s from "../styles/header.module.scss";
 
 
 const NavLinks = [
-  { id: 1, title: "Головна", path: "/" },
-  { id: 2, title: "Про парафію", path: "/about-the-parish" },
-  { id: 3, title: "Розклад Богослужінь", path: "/services" },
-  { id: 4, title: "Проповіді", path: "/sermons" },
-  { id: 5, title: "Молитовник", path: "/molytovnyk" },
-  { id: 6, title: "Онлайн послуги", path: "/online-services" },
-  { id: 7, title: "Пожертва", path: "/donate" },
+  { id: 1, title: "Our community", path: "/community" },
+  { id: 2, title: "News", path: "/news" },
+  { id: 3, title: "Lessons shedule", path: "/lessons-shedule" },
+  { id: 4, title: "Dance group for kids", path: "/dance-group-for-kids" },
+  { id: 5, title: "Dance group for adoults", path: "/dance-group-for-adoults" },
+  { id: 6, title: "Choir", path: "/choir" },
+  { id: 7, title: "Singers", path: "/singers" },
+  { id: 7, title: "Sacsofonist", path: "/sacsofonist" },
 ];
 
 const MobileNav = () => {

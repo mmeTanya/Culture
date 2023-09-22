@@ -1,4 +1,4 @@
-.sky {
+.neclace {
   height: 100%;
   position: relative;
   min-height: 700px;
@@ -13,21 +13,21 @@
   @extend %link;
   top: 90px;
   left: 50%;
-  animation: neclece_1 3s linear;
+  animation: neclece_1 3s linear, shine 3s linear infinite;
 }
 
 .cloud_2 {
   @extend %link;
   top: 120px;
   left: 61%;
-  animation: neclece_2 ease-in 2s;
+  animation: neclece_2 ease-in 2s, shine 3s linear infinite;
 }
 
 .cloud_3 {
   @extend %link;
   top: 157px;
   left: 70%;
-  animation: neclece_3 ease-in 1s;
+  animation: neclece_3 ease-in 1s, shine 3s linear infinite;
 }
 
 
@@ -36,133 +36,133 @@
   @extend %link;
   top: 117px;
   left: 38%;
-  animation: neclece_5 ease-in 1s;
+  animation: neclece_5 ease-in 1s,shine 3s linear infinite;
 }
 
 .cloud_6 {
   @extend %link;
   top: 196px;
   left: 79%;
-  animation: neclece_6 ease-in 5s;
+  animation: neclece_6 ease-in 5s, shine 3s linear infinite;
 }
 
 .cloud_7 {
   @extend %link;
   top: 155px;
   left: 29%;
-  animation: neclece_7 ease-in 1500ms;
+  animation: neclece_7 ease-in 1500ms, shine 3s linear infinite;
 }
 
 .cloud_8 {
   @extend %link;
   top: 244px;
   left: 84%;
-  animation: neclece_8 ease-in 3s;
+  animation: neclece_8 ease-in 3s, shine 3s linear infinite;
 }
 
 .cloud_9 {
   @extend %link;
   top: 193px;
   left: 21%;
-  animation: neclece_9 ease-in 1s;
+  animation: neclece_9 ease-in 1s,shine 3s linear infinite;
 }
 
 .cloud_10 {
   @extend %link;
   top: 292px;
   left: 87%;
-  animation: neclece_10 ease-in 5s;
+  animation: neclece_10 ease-in 5s,shine 3s linear infinite;
 }
 
 .cloud_11 {
   @extend %link;
   top: 235px;
   left: 16%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms, shine 3s linear infinite;
 }
 
 .cloud_12 {
   @extend %link;
   top: 339px;
   left: 88%;
-  animation: neclece_12 ease-in 3s;
+  animation: neclece_12 ease-in 3s,shine 3s linear infinite;
 }
 
 .cloud_13 {
   @extend %link;
   top: 280px;
   left: 12%;
-  animation: neclece_13 ease-in 1s;
+  animation: neclece_13 ease-in 1s,shine 3s linear infinite;
 }
 
 .cloud_15 {
   @extend %link;
   top: 327px;
   left: 11%;
-  animation: neclece_15 ease-in 1500ms;
+  animation: neclece_15 ease-in 1500ms, shine 3s linear infinite;
 }
 
 .cloud_16 {
   @extend %link;
   top: 388px;
   left: 86%;
-  animation: neclece_16 ease-in 3s;
+  animation: neclece_16 ease-in 3s, shine 3s linear infinite;
 }
 
 .cloud_18 {
   @extend %link;
   top: 429px;
   left: 80%;
-  animation: neclece_18 ease-in 5s;
+  animation: neclece_18 ease-in 5s,shine 3s linear infinite;
 }
 
 .cloud_19 {
   @extend %link;
   top: 377px;
   left: 10%;
-  animation: neclece_19 ease-in 1500ms;
+  animation: neclece_19 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_20 {
   @extend %link;
   top: 465px;
   left: 72%;
-  animation: neclece_20 ease-in 3s;
+  animation: neclece_20 ease-in 3s,shine 3s linear infinite;
 }
 
 .cloud_21 {
   @extend %link;
   top: 420px;
   left: 16%;
-  animation: neclece_21 ease-in 1s;
+  animation: neclece_21 ease-in 1s, shine 3s linear infinite;
 }
 
 .cloud_22 {
   @extend %link;
   top: 493px;
   left: 61%;
-  animation: neclece_22 ease-in 5s;
+  animation: neclece_22 ease-in 5s, shine 3s linear infinite;
 }
 
 .cloud_23 {
   @extend %link;
   top: 463px;
   left: 23%;
-  animation: neclece_23 ease-in 1500ms;
+  animation: neclece_23 ease-in 1500ms, shine 3s linear infinite;
 }
 
 .cloud_24 {
   @extend %link;
   top: 510px;
   left: 49%;
-  animation: neclece_24 ease-in 3s;
+  animation: neclece_24 ease-in 3s,shine 3s linear infinite;
 }
 
 .cloud_25 {
   @extend %link;
   top: 497px;
   left: 35%;
-  animation: neclece_25 ease-in 1s;
+  animation: neclece_25 ease-in 1s,shine 3s linear infinite;
 }
 
 
@@ -172,266 +172,266 @@
   @extend %link;
   top: 40px;
   left: 50%;
-  animation: neclece_1 5s linear;
+  animation: neclece_1 5s linear, shine 3s linear infinite;
 }
 
 .cloud_27 {
   @extend %link;
   top: 65px;
   left: 35%;
-  animation: neclece_2 ease-in 2s;
+  animation: neclece_2 ease-in 2s,shine 3s linear infinite;
 }
 
 .cloud_28 {
   @extend %link;
   top: 65px;
   left: 65%;
-  animation: neclece_3 ease-in 3s;
+  animation: neclece_3 ease-in 3s,shine 3s linear infinite;
 }
 
 .cloud_29 {
   @extend %link;
   top: 100px;
   left: 23%;
-  animation: neclece_4 ease-in 5s;
+  animation: neclece_4 ease-in 5s,shine 3s linear infinite;
 }
 
 .cloud_30 {
   @extend %link;
   top: 101px;
   left: 78%;
-  animation: neclece_5 ease-in 5s;
+  animation: neclece_5 ease-in 5s,shine 3s linear infinite;
 }
 
 .cloud_31 {
   @extend %link;
   top: 140px;
   left: 12%;
-  animation: neclece_6 ease-in 3s;
+  animation: neclece_6 ease-in 3s,shine 3s linear infinite;
 }
 
 .cloud_32 {
   @extend %link;
   top: 140px;
   left: 87%;
-  animation: neclece_7 ease-in 1500ms;
+  animation: neclece_7 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_33 {
   @extend %link;
   top: 187px;
   left: 6%;
-  animation: neclece_8 ease-in 5s;
+  animation: neclece_8 ease-in 5s,shine 3s linear infinite;
 }
 
 .cloud_34 {
   @extend %link;
   top: 180px;
   left: 95%;
-  animation: neclece_9 ease-in 1s;
+  animation: neclece_9 ease-in 1s,shine 3s linear infinite;
 }
 
 .cloud_35 {
   @extend %link;
   top: 230px;
   left: 0%;
-  animation: neclece_10 ease-in 7s;
+  animation: neclece_10 ease-in 7s,shine 3s linear infinite;
 }
 
 .cloud_36 {
   @extend %link;
   top: 225px;
   left: 101%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_37 {
   @extend %link;
   top: 277px;
   left: -5%;
-  animation: neclece_12 ease-in 3s;
+  animation: neclece_12 ease-in 3s,shine 3s linear infinite;
 }
 
 .cloud_38 {
   @extend %link;
   top: 267px;
   left: 105%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_39 {
   @extend %link;
   top: 320px;
   left: -8%;
-  animation: neclece_14 ease-in 2s;
+  animation: neclece_14 ease-in 2s,shine 3s linear infinite;
 }
 
 .cloud_40 {
   @extend %link;
   top: 310px;
   left: 110%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_41 {
   @extend %link;
   top: 365px;
   left: -10%;
-  animation: neclece_16 ease-in 3s;
+  animation: neclece_16 ease-in 3s,shine 3s linear infinite;
 }
 
 .cloud_42 {
   @extend %link;
   top: 355px;
   left: 113%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_43 {
   @extend %link;
   top: 410px;
   left: -12%;
-  animation: neclece_18 ease-in 5s;
+  animation: neclece_18 ease-in 5s,shine 3s linear infinite;
 }
 
 .cloud_44 {
   @extend %link;
   top: 400px;
   left: 114%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_45 {
   @extend %link;
   top: 455px;
   left: -12%;
-  animation: neclece_20 ease-in 3s;
+  animation: neclece_20 ease-in 3s,shine 3s linear infinite;
 }
 
 .cloud_46 {
   @extend %link;
   top: 445px;
   left: 114%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_47 {
   @extend %link;
   top: 500px;
   left: -12%;
-  animation: neclece_20 ease-in 3s;
+  animation: neclece_20 ease-in 3s,shine 3s linear infinite;
 }
 
 .cloud_48 {
   @extend %link;
   top: 490px;
   left: 114%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_49 {
   @extend %link;
   top: 547px;
   left: -12%;
-  animation: neclece_20 ease-in 3s
+  animation: neclece_20 ease-in 3,shine 3s linear infinite;
 }
 
 .cloud_50 {
   @extend %link;
   top: 540px;
   left: 114%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_51 {
   @extend %link;
   top: 593px;
   left: -10%;
-  animation: neclece_20 ease-in 3s;
+  animation: neclece_20 ease-in 3s,shine 3s linear infinite;
 }
 
 .cloud_50 {
   @extend %link;
   top: 535px;
   left: 114%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_52 {
   @extend %link;
   top: 580px;
   left: 112%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_53 {
   @extend %link;
   top: 635px;
   left: -8%;
-  animation: neclece_20 ease-in 3s;
+  animation: neclece_20 ease-in 3s,shine 3s linear infinite;
 }
 
 .cloud_54 {
   @extend %link;
   top: 625px;
   left: 110%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_55 {
   @extend %link;
   top: 679px;
   left: -4%;
-  animation: neclece_20 ease-in 3s;
+  animation: neclece_20 ease-in 3s,shine 3s linear infinite;
 }
 
 .cloud_56 {
   @extend %link;
   top: 670px;
   left: 107%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms, shine 3s linear infinite;
 }
 
 .cloud_57 {
   @extend %link;
   top: 723px;
   left: 2%;
-  animation: neclece_20 ease-in 3s;
+  animation: neclece_20 ease-in 3s, shine 3s linear infinite;
 }
 
 .cloud_58 {
   @extend %link;
   top: 715px;
   left: 102%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_59 {
   @extend %link;
   top: 767px;
   left: 7%;
-  animation: neclece_20 ease-in 3s;
+  animation: neclece_20 ease-in 3s,shine 3s linear infinite;
 }
 
 .cloud_58 {
   @extend %link;
   top: 715px;
   left: 102%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_59 {
   @extend %link;
   top: 757px;
   left: 12%;
-  animation: neclece_20 ease-in 3s;
+  animation: neclece_20 ease-in 3s,shine 3s linear infinite;
 }
 
 .cloud_60 {
   @extend %link;
   top: 755px;
   left: 96%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 
@@ -439,35 +439,35 @@
   @extend %link;
   top: 784px;
   left: 25%;
-  animation: neclece_20 ease-in 3s;
+  animation: neclece_20 ease-in 3s,shine 3s linear infinite;
 }
 
 .cloud_62 {
   @extend %link;
   top: 790px;
   left: 85%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_63 {
   @extend %link;
   top: 805px;
   left: 70%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_64 {
   @extend %link;
   top: 810px;
   left: 55%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 }
 
 .cloud_65 {
   @extend %link;
   top: 805px;
   left: 40%;
-  animation: neclece_11 ease-in 1500ms;
+  animation: neclece_11 ease-in 1500ms,shine 3s linear infinite;
 
 }
 
@@ -483,7 +483,7 @@
   -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 50%,
       #000 70%, rgba(0, 0, 0, .6) 100%);
   -webkit-mask-size: 200%;
-  animation: shine 3s linear infinite;
+
 
 }
 

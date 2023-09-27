@@ -3,7 +3,7 @@ import { v1 as uuidv1 } from 'uuid';
 import Loader from '../components/loader';
 import VerticalCarousel from '../components/gallery';
 import { config } from "react-spring";
-import s from "../styles/aboutParish.module.scss";
+import s from "../styles/lessons-shedule.module.scss";
 
 const Status = {
   IDLE: 'idle',

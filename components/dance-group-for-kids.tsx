@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Link from "next/link";
 import { v1 as uuidv1 } from 'uuid';
 import Loader from '../components/loader'
-import s from "../styles/aboutSermons.module.scss";
+import s from "../styles/dance-group-for-kids.module.scss";
 import Button from "../components/button";
 
 const Status = {

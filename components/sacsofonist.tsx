@@ -1,6 +1,6 @@
 import Form from "../components/form-order";
 import FormForCandlesNotes from "../components/form-order-candle-and-notes";
-import s from "../styles/onlineServices.module.scss";
+import s from "../styles/sacsofonist.module.scss";
 
 
 const OnlineService = () => {

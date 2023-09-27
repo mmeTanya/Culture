@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { v1 as uuidv1 } from 'uuid';
 import Loader from '../components/loader'
 import Button from "../components/button";
-import s from "../styles/aboutServices.module.scss";
+import s from "../styles/dance-group-for-adoults.module.scss";
 
 const Status = {
   IDLE: 'idle',

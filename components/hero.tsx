@@ -10,17 +10,10 @@ const pacifico = Pacifico({
 
 })
 
-
 const calistoga = Calistoga({
   weight: '400',
   subsets: ['latin'],
 })
-
-
-
-
-
-
 
 const Hero = () => {
 

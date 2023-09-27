@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { v1 as uuidv1 } from 'uuid';
 import Loader from './loader'
-import s from "../styles/molytvy.module.scss";
+import s from "../styles/hero.module.scss";
 
 const Status = {
   IDLE: 'idle',

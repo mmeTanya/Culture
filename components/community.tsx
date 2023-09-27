@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { v1 as uuidv1 } from 'uuid';
 import Loader from '../components/loader'
-import s from "../styles/aboutArchpriest.module.scss";
+import s from "../styles/community.module.scss";
 
 
 const Status = {

@@ -2,6 +2,7 @@ import s from "../styles/neclace.module.scss";
 
 const Neclace1 = () => {
   return (
+    
     <section className={s.neclace} >
       <button className={s.cloud_1}> </button>
       <button className={s.cloud_2}> </button>

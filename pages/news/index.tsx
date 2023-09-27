@@ -14,6 +14,7 @@ const Parish: NextPage = () => {
     <title>Ukrainian cultural community</title>
       <meta name="description" content="Ukrainian cultural community" />
       <link rel="icon" href="/dancers.svg" />
+      
     </Head>
     <div className='container'>
       <main>

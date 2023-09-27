@@ -12,9 +12,9 @@ const Home: NextPage = () => {
   return (
     <div  >
       <div><Head>
-        <title>Свято-Вознесенська парафія</title>
-        <meta name="description" content="Свято-Вознесенська парафія, Українська православна церква Київського Патріархату" />
-        <link rel="icon"  href="/dancers.svg" />
+      <title>Ukrainian cultural community</title>
+        <meta name="description" content="Ukrainian cultural community" />
+        <link rel="icon"href="/dancers.svg"  />
       </Head>
         <main>
           <MobileNav />

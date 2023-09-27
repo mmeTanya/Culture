@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import MobileNav from "../components/header";
+import Header from "../components/header";
 import Neclace from '../components/neclace'
 import Hero from '../components/hero'
 import GoUp from '../components/goUp'
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <link rel="icon"href="/dancers.svg"  />
       </Head>
         <main>
-          <MobileNav />
+         <Header />
           <div className='container'>
             <Neclace />
          

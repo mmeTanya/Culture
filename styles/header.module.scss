@@ -32,7 +32,7 @@
     box-sizing: border-box;
     top: 0;
     right: 0;
-    width: 50vw;
+    width: 75vw;
     height: 100vh;
     padding: 57px 40px;
     background-color: #332a76;
@@ -41,6 +41,10 @@
     transform: translateX(0);
     transition: transform 250ms ease-in-out;
     opacity: 95%;
+
+    @media screen and (min-width: 900px) {
+      width: 50vw;
+    }
   }
 
   &__isClose {

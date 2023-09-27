@@ -18,7 +18,7 @@ const NavLinks = [
   { id: 9, title: "Singers", path: "/singers" },
 ];
 
-const MobileNav = () => {
+const Header = () => {
   const [isClose, setIsClose] = useState(true);
   const router = useRouter();
 
@@ -69,4 +69,4 @@ const MobileNav = () => {
   );
 };
 
-export default MobileNav;
+export default Header;

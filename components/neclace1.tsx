@@ -62,10 +62,6 @@ const Neclace1 = () => {
       <button className={s.cloud_59}> </button>
       <button className={s.cloud_60}> </button>
       <button className={s.cloud_61}> </button>
-      <button className={s.cloud_62}> </button>
-      <button className={s.cloud_63}> </button>
-      <button className={s.cloud_64}></button>
-      <button className={s.cloud_65}></button>
     </section>
 
   );

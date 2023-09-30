@@ -1,67 +1,34 @@
-import React, { useState, useEffect } from 'react';
-import { v1 as uuidv1 } from 'uuid';
-import Loader from '../components/loader'
+import { Fade } from "react-awesome-reveal"
+import Gallery from '@/components/gallery'
+import Gallery1 from '@/components/gallery1'
+import Button from "../components/button";
+import Modal from "../components/modal";
 import s from "../styles/community.module.scss";
 
+const divStyle = {
+  whiteSpace: 'break-spaces',
+  display: 'block'
+}
 
-const Status = {
-  IDLE: 'idle',
-  PENDING: 'pending',
-  RESOLVED: 'resolved',
-  REJECTED: 'rejected',
-};
-
-const AboutArchpriest = () => {
-  const [info, setInfo] = useState(null)
-  const [status, setStatus] = useState(Status.IDLE);
-
-  useEffect(() => {
-    onLoadInfo()
-  }, []);
-
-  const onLoadInfo = async () => {
-    try {
-      const response = await fetch('/api/info-archpriest')
-      setStatus(Status.PENDING)
-      const result = await response.json()
-      if (result.info.length === 0) {
-        setStatus(Status.REJECTED)
-        return
-      }
-      setInfo(result.info)
-      setStatus(Status.RESOLVED)
-    }
-    catch {
-      setStatus(Status.REJECTED)
-    }
-  }
+const Community = () => {
 
   return (
-    <section className={s.archpriest} >
-      <div className={s.archpriest__img_cover}>
-        {status === Status.PENDING && <Loader />}
-        {status === Status.RESOLVED && <article  >
-          {info && info.map(item => <div key={uuidv1()}>
-            {item.image && item.image.map(el => (<img key={uuidv1()} src={el.src} alt='image' className={s.archpriest__img} />))}
-          </div>)}
-        </article>
-        }
+    <section className={s.hero}>
+      <div className={s.hero__overlay}>
+        <img src='/dance.jpeg' alt='image' className={s.hero__img} />
       </div>
-      <div className={s.archpriest__text_cover}>
-        <h1 className={s.archpriest__title}>
-          Протоієрей Сергій Більченко
-        </h1>
-        {status === Status.PENDING && <Loader />}
-        {status === Status.REJECTED && <p className={s.archpriest__text}>На даний час інформація відсутня</p>}
-        {status === Status.RESOLVED && <div>
-          {info && info.map(item => <div key={uuidv1()}>
-            {item.text && item.text.map(el => <p key={uuidv1()} className={s.archpriest__text}>{el.p}</p>
-            )}</div>)}
-        </div>
-        }
+      <p className={s.hero__text}>We are Ukrainian cultural community Kalyna. In addition to its intrinsic value, culture provides important social and economic benefits. With improved learning and health, increased tolerance, and opportunities to come together with others, culture enhances our quality of life and increases overall well-being for both individuals and communities.</p>
+      <Gallery />
+      <h1 className={s.hero__title}>Our choreograf</h1>
+      <div className={s.hero__overlay1}>
+        <img src='/dance.jpeg' alt='image' className={s.hero__img1} />
       </div>
+      <Fade delay={3000} cascade damping={1e-1} triggerOnce={true} duration={300} style={divStyle} className={s.hero__text}>
+        Nos aliments dépendent fortement des produits locaux. Les pommes fraîches, les baies, les haricots verts, les poireaux, les champignons, diverses courges et les fruits à noyau font partie des produits les plus couramment utilisés. La volaille, le bœuf, l'agneau et le veau sont facilement disponibles toute l'année. La viande de gibier est particulièrement appréciée et abondante pendant la saison de chasse qui s'étend du début de l'automne à février. Peu importe la région, la France regorge de fromages et de vins artisanaux.
+      </Fade>
+      <Gallery1 />
     </section>
   );
 };
 
-export default AboutArchpriest;
+export default Community;

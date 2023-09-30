@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from '../components/header'
+import Hero from '../components/community'
 import Clouds from '../components/neclace'
 import GoUp from '../components/goUp'
 import AboutParish from '../components/aboutParish'
@@ -16,14 +17,15 @@ const Parish: NextPage = () => {
         <meta name="description" content="Ukrainian cultural community" />
         <link rel="icon"href="/dancers.svg"  />
     </Head>
-    <div className='container'>
+    
       <main>
       <Header />
+      <Hero />
       </main>
       <footer>
         <Footer />
       </footer>
-    </div>
+    
     <GoUp />
   </div>
   )

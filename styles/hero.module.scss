@@ -20,7 +20,7 @@
     line-height: 1.175;
     letter-spacing: 0.02em;
     color: rgb(45, 31, 202);
-    animation: color 500ms linear infinite;
+    animation: color 3s linear infinite 4s;
   
 
     @media screen and (max-width: 800px) {
@@ -34,7 +34,7 @@
   }
  
   &__title {
-    animation: color 3000ms infinite;
+    animation: color 4s infinite 4s;
   }
  
 
@@ -55,7 +55,7 @@
   }
 
   &__text {
-    animation: color 3000ms infinite;
+    animation: color 4s infinite 4s;
   }
 
   &__cover_link {

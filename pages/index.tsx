@@ -20,9 +20,8 @@ const Home: NextPage = () => {
          <Header />
           <div className='container'>
             <Neclace />
-         
+            <Hero />
           </div>
-          <Hero />
         </main>
         <footer>
         </footer>

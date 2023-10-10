@@ -1,5 +1,8 @@
 .gallery {
   width: 90vw;
+  min-height: 2
+  
+  00px;
   margin: 100px auto 50px;
   background-color: transparent;
 
@@ -26,11 +29,12 @@
     display: block;
     border-radius: 10px;
     overflow: hidden;
-    transform: rotate(0);
+    transform: rotate(0), scale(1);
 
     &:hover,
     &:focus {
       animation: rotate 1s 1;
+      transform:  scale(2);
     }
 
 

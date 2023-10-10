@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+/* import React, { useState, useEffect } from 'react';
+import ImageGallery from "react-image-gallery";
 import { v1 as uuidv1 } from 'uuid';
 import Loader from '../components/loader';
 import { Bounce } from "react-awesome-reveal"
@@ -11,9 +12,27 @@ const Status = {
   REJECTED: 'rejected',
 };
 
-const Gallery = () => {
+const Gallery1 = () => {
   const [images, setImages] = useState([])
   const [status, setStatus] = useState(Status.IDLE);
+  const [showIndex, setShowIndex] = useState(false)
+  const [status, setStatus] = useState(Status.IDLE);
+
+  showBullets: true,
+  infinite: true,
+  showThumbnails: true,
+  showFullscreenButton: true,
+  showGalleryFullscreenButton: true,
+  showPlayButton: true,
+  showGalleryPlayButton: true,
+  showNav: true,
+  isRTL: false,
+  slideDuration: 450,
+  slideInterval: 2000,
+  slideOnThumbnailOver: false,
+  thumbnailPosition: "bottom",
+  showVideo: false,
+  useWindowKeyDown: true,
 
 
   useEffect(() => {
@@ -40,20 +59,14 @@ const Gallery = () => {
 
   return (
     <section className={s.gallery}>
-      <h1 className={s.gallery__title}>
-        Le Restaurant
-      </h1>
       {status === Status.PENDING && <Loader />}
       {status === Status.RESOLVED && <div className={s.gallery__list}>
-        {images && images.map(item =>
-          <Bounce key={uuidv1()} className={s.gallery__item}>
-            <img src={item.src} alt='image' className={s.gallery__img} />
-          </Bounce>
-        )}
+        <ImageGallery items={images} />
       </div>
       }
     </section>
   );
 };
 
-export default Gallery;
+export default Gallery1;
+ */

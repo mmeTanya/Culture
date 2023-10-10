@@ -13,9 +13,9 @@ const NavLinks = [
   { id: 4, title: "Lessons shedule", path: "/lessons-shedule" },
   { id: 5, title: "Dance group for kids", path: "/dance-group-for-kids" },
   { id: 6, title: "Dance group for adoults", path: "/dance-group-for-adoults" },
-  { id: 7, title: "Choir", path: "/choir" },
+ /*  { id: 7, title: "Choir", path: "/choir" },
   { id: 8, title: "Sacsofonist", path: "/sacsofonist" },
-  { id: 9, title: "Singers", path: "/singers" },
+  { id: 9, title: "Singers", path: "/singers" }, */
 ];
 
 const Header = () => {

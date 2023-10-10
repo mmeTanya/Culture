@@ -60,7 +60,7 @@
 
   &__cover_link {
     position: absolute;
-    top: 87%;
+    top: 90%;
     right: 5%;
     z-index: 77;
     text-align: start;
@@ -71,11 +71,12 @@
     line-height: 1.175;
     letter-spacing: 0.02em;
     color:#ccfa00;
+    
 
     @media screen and (max-width: 900px) {
-      top: 63%;
       font-size: 21px;
     }
+
 
     &:hover,
     &:focus {

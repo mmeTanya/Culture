@@ -26,7 +26,7 @@ const Hero = () => {
         </span></h1>
       </Rotate>
       <Rotate delay={2000} className={s.hero__text_cover} triggerOnce={true}>
-        <p className={s.hero__text}> <span className={calistoga.className} >to the website of Ukrainian cultural community Kalyna </span></p>
+        <p className={s.hero__text}> <span className={calistoga.className} >to the website of Ukrainian cultural community Kryla </span></p>
       </Rotate>
       <div className={s.hero__cover_link}>
         <JackInTheBox delay={3000} className={s.hero__cover} triggerOnce={true}>

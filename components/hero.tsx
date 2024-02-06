@@ -29,13 +29,13 @@ const Hero = () => {
         <p className={s.hero__text}> <span className={calistoga.className} >to the website of Ukrainian cultural community "BALAMUTY" </span></p>
         </Rotate>
       <div className={s.hero__cover_link}>
-        <JackInTheBox delay={8000} className={s.hero__cover} triggerOnce={true}>
+        {/* <JackInTheBox delay={8000} className={s.hero__cover} triggerOnce={true}>
           <div className={s.hero__item}>
             <Link legacyBehavior href='/community'>
               <a id="link" className={calistoga.className} > Let's go to our website </a>
             </Link>
           </div>
-        </JackInTheBox>
+        </JackInTheBox> */}
       </div>
     </section >
   );

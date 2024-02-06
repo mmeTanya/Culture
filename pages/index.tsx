@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Header from "../components/header";
 import Neclace from '../components/neclace'
 import Hero from '../components/hero'
+import Community from '../components/community'
 import GoUp from '../components/goUp'
 
 
@@ -12,21 +13,22 @@ const Home: NextPage = () => {
   return (
     <div  >
       <div><Head>
-      <title>Ukrainian cultural community</title>
+        <title>Ukrainian cultural community</title>
         <meta name="description" content="Ukrainian cultural community" />
-        <link rel="icon"href="/dancers.svg"  />
+        <link rel="icon" href="/dancers.svg" />
       </Head>
         <main>
-         <Header />
+          <Header />
           <div className='container'>
             <Neclace />
             <Hero />
           </div>
+          <Community />
         </main>
         <footer>
         </footer>
         <GoUp />
-        </div>
+      </div>
     </div>
   )
 }

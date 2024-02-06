@@ -43,7 +43,8 @@ const Gallery = () => {
       <h1 className={s.gallery__title}>
         Le Restaurant
       </h1>
-      {status === Status.PENDING && <Loader />}
+      {status === Status.IDLE && <div className={s.gallery__loader}></div>}
+      {status === Status.PENDING && <Loader /> && <div className={s.gallery__loader}></div>}
       {status === Status.RESOLVED && <div className={s.gallery__list}>
         {images && images.map(item =>
           <Bounce key={uuidv1()} className={s.gallery__item}>

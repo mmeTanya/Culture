@@ -12,22 +12,22 @@ const Community = () => {
   return (
     <section className={s.hero}> 
       <Gallery />
-      <Fade delay={2000} cascade damping={1e-1} triggerOnce={true} duration={300}  className={s.hero__text}>
+      <Fade delay={1000} cascade damping={1e-1} triggerOnce={true} duration={300}  className={s.hero__text}>
         We are Ukrainian cultural community Kalyna. 
       </Fade>
-      <Fade delay={3000} cascade damping={1e-1} triggerOnce={true} duration={300}  className={s.hero__text}>
+      <Fade delay={2000} cascade damping={1e-1} triggerOnce={true} duration={300}  className={s.hero__text}>
        In addition to its intrinsic value, culture provides important social and 
       </Fade>
-      <Fade delay={4000} cascade damping={1e-1} triggerOnce={true} duration={300}  className={s.hero__text}>
+      <Fade delay={3000} cascade damping={1e-1} triggerOnce={true} duration={300}  className={s.hero__text}>
       economic benefits. With improved learning and health, increased tolerance,
       </Fade>
-      <Fade delay={5000} cascade damping={1e-1} triggerOnce={true} duration={300}  className={s.hero__text}>
+      <Fade delay={4000} cascade damping={1e-1} triggerOnce={true} duration={300}  className={s.hero__text}>
       and opportunities to come together with others,  culture enhances
       </Fade>
-      <Fade delay={6000} cascade damping={1e-1} triggerOnce={true} duration={300}  className={s.hero__text}>
+      <Fade delay={5000} cascade damping={1e-1} triggerOnce={true} duration={300}  className={s.hero__text}>
        our quality of life and increases overall  well-being for
       </Fade>
-      <Fade delay={7000} cascade damping={1e-1} triggerOnce={true} duration={300}  className={s.hero__text}>
+      <Fade delay={6000} cascade damping={1e-1} triggerOnce={true} duration={300}  className={s.hero__text}>
        both individuals and communities.
       </Fade>
       <h1 className={s.hero__title}>Our choreograf</h1>

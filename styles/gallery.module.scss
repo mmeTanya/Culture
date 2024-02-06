@@ -15,6 +15,11 @@
     display: none;
   }
 
+  &__loader{
+    min-height: 400px;
+   background-color: transparent;
+  }
+
   &__list {
     width: 100%;
     display: grid;

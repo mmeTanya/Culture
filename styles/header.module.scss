@@ -8,14 +8,14 @@
   top: 0;
   right: 0;
   width: 100%;
-  height: 70px;
+  height: 50px;
   margin: 0 auto;
-  background-color: #18143d;
+  background-color: #eeede2;
   min-width: 320px;
-  padding: 10px 200px;
+  padding: 5px 200px;
 
   @media screen and (max-width: 900px) {
-    padding: 10px 50px;
+    padding: 5px 50px;
   }
 
   &__container {
@@ -79,11 +79,11 @@
     font-size: 27px;
     line-height: 1.175;
     letter-spacing: 0.02em;
-    color: rgb(136 126 242);
+    color: rgb(241, 209, 171);
 
     &:focus,
     &:hover {
-      color: #fbd30d;
+      color: #f5a3a1;
     }
   }
 
@@ -118,8 +118,8 @@
 
 .join_us {
   &__social_item {
-    width: 44px;
-    height: 44px;
+    width: 43px;
+    height: 43px;
 
     &:not(:last-child) {
       margin-right: 10px;
@@ -150,7 +150,7 @@
   height: 20px;
   box-sizing: content-box;
   border-radius: 50%;
-  background-color: rgb(128 109 167 / 91%);
+  background-color: rgba(236, 225, 193, 0.91);
   ;
   background-size: auto;
   background-repeat: no-repeat;
@@ -160,6 +160,6 @@
 
   &:hover,
   &:focus {
-    background-color: #045968;
+    background-color: #dda1a1;
   }
 }

@@ -14,17 +14,18 @@
   &__title_cover {
     position: absolute;
     top: 20%;
-    right: 25%;
+    right: 35%;
     font-family: "Pacifico", cursive;
     font-size: 65px;
     line-height: 1.175;
     letter-spacing: 0.02em;
-    color: rgb(45, 31, 202);
-    animation: color 3s linear infinite 4s;
-  
+    color: #7a92d4;
+   /*  animation: color cubic-bezier(0.95, 0.05, 0.795, 0.035) linear infinite 4s;
+   */
 
     @media screen and (max-width: 800px) {
       font-size: 39px;
+      right: 25%;
     }
 
     @media screen and (max-width: 500px) {
@@ -34,14 +35,31 @@
   }
  
   &__title {
-    animation: color 4s infinite 4s;
+   /*  animation: color 4s infinite 4s; */
   }
  
 
-  &__text_cover {
+  &__text_cover1 {
     position: absolute;
     top: 40%;
-    right: 5%;
+    right: 15%;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1.175;
+    letter-spacing: 0.02em;
+    color: rgb(172, 177, 75);
+
+    @media screen and (max-width: 800px) {
+      font-size: 30px;
+      top: 30%;
+      right: 5%;
+    }
+  }
+
+  &__text_cover2 {
+    position: absolute;
+    top: 65%;
+    right: 15%;
     font-weight: 900;
     font-size: 50px;
     line-height: 1.175;
@@ -51,11 +69,12 @@
     @media screen and (max-width: 800px) {
       font-size: 30px;
       top: 30%;
+      right: 5%;
     }
   }
 
   &__text {
-    animation: color 4s infinite 4s;
+   /*  animation: color 4s infinite 4s; */
   }
 
   &__cover_link {
@@ -92,7 +111,7 @@
     color: rgb(45, 31, 202);
   }
   50% {
-    color: #0051ff;
+    color: #727ea0;
   }
   100% {
     color: #fffc00;

@@ -12,22 +12,22 @@ const Community = () => {
   return (
     <section className={s.hero}>
       <Fade delay={1000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
-        We are Ukrainian cultural community Kalyna.
+        We are Ukrainian cultural community .
       </Fade>
       <Fade delay={2000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
-        In addition to its intrinsic value, culture provides important social and
+        In addition to its intrinsic value, culture provides important
       </Fade>
       <Fade delay={3000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
-        economic benefits. With improved learning and health, increased tolerance,
+      social and economic benefits. With improved learning and health,
       </Fade>
       <Fade delay={4000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
-        and opportunities to come together with others,  culture enhances
+      increased tolerance, and opportunities to come together with others,  
       </Fade>
       <Fade delay={5000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
-        our quality of life and increases overall  well-being for
+      culture enhances our quality of life and increases overall  well-being 
       </Fade>
       <Fade delay={6000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
-        both individuals and communities.
+       for both individuals and communities.
       </Fade>
       <h1 className={s.hero__title}>Our choreograf</h1>
       <div className={s.hero__overlay1}>

@@ -150,7 +150,7 @@
   height: 20px;
   box-sizing: content-box;
   border-radius: 50%;
-  background-color: rgba(236, 225, 193, 0.91);
+  background-color: rgb(208, 191, 181);
   ;
   background-size: auto;
   background-repeat: no-repeat;
@@ -160,6 +160,6 @@
 
   &:hover,
   &:focus {
-    background-color: #dda1a1;
+    background-color: #947b7b;
   }
 }

@@ -67,21 +67,21 @@
   &__text {
     font-family: Playfair Display;
     font-weight: 700;
-    font-size: 7px;
+    font-size: 12px;
     line-height: 2;
     letter-spacing: 0.05em;
     color: #070401cc;
-    padding: 0 15px;
+    padding: 0 35px;
     text-align: center;
     width: 90vw;
     margin: 0 auto 10px;
     
     @media screen and (min-width: 768px) {
-      font-size: 21px;
+      font-size: 23px;
     }
 
     @media screen and (min-width: 1200px) {
-      font-size: 27px;
+      font-size: 31px;
       margin: 0 auto 0;
     }
   }

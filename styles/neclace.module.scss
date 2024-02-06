@@ -1,10 +1,10 @@
 .neclace {
- /*  height: 100%; */
+  /*  height: 100%; */
   width: 50%;
   min-height: 900px;
   margin: -10px 100px;
   position: relative;
-  
+
 
   @media screen and (max-width: 500px) {
     margin: -20px 30px;
@@ -453,9 +453,11 @@
   width: 50px;
   height: 50px;
   background: rgb(252, 252, 252);
-  background: linear-gradient(70deg, rgb(252, 252, 252) 0%, rgb(155 110 87) 100%);;
+  background: linear-gradient(70deg, rgb(252, 252, 252) 0%, rgb(155 110 87) 100%);
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 50%,
+      #000 70%, rgba(0, 0, 0, .6) 100%);
   -webkit-mask-size: 200%;
-
+ 
   @media screen and (min-width: 700px) {
     width: 59px;
     height: 59px;
@@ -464,6 +466,7 @@
 }
 
 //animation
+
 
 @keyframes neclece_1 {
   0% {

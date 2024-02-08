@@ -4,6 +4,7 @@ import Header from "../components/header";
 import Neclace from '../components/neclace'
 import Hero from '../components/hero'
 import Community from '../components/community'
+import Rewiews from '@/components/rewiews';
 import GoUp from '../components/goUp'
 
 
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
             <Hero />
           </div>
           <Community />
+          <Rewiews  />
         </main>
         <footer>
         </footer>

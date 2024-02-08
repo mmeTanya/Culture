@@ -11,23 +11,26 @@ const Community = () => {
 
   return (
     <section className={s.hero}>
-      <Fade delay={1000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
+      <Fade delay={7000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
         We are Ukrainian cultural community .
       </Fade>
-      <Fade delay={2000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
-        In addition to its intrinsic value, culture provides important
+      <Fade delay={8000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
+        In addition to its intrinsic value, culture provides
       </Fade>
-      <Fade delay={3000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
-      social and economic benefits. With improved learning and health,
+      <Fade delay={9000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
+        important social and economic benefits. With improved
       </Fade>
-      <Fade delay={4000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
-      increased tolerance, and opportunities to come together with others,  
+      <Fade delay={10000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
+        learning and health, increased tolerance, and opportunities
       </Fade>
-      <Fade delay={5000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
-      culture enhances our quality of life and increases overall  well-being 
+      <Fade delay={11000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
+        to come together with others, culture enhances our quality
       </Fade>
-      <Fade delay={6000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
-       for both individuals and communities.
+      <Fade delay={12000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
+        of life and increases overall well-beingfor  individuals
+      </Fade>
+      <Fade delay={13000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
+        and communities.
       </Fade>
       <h1 className={s.hero__title}>Our choreograf</h1>
       <div className={s.hero__overlay1}>

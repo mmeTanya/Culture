@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from '../components/header'
 import Hero from '../components/community'
-import Gallery1 from '../components/gallery1'
+import Gallery1 from '../components/rewiews'
 import GoUp from '../components/goUp'
 import Footer from '../components/footer'
 

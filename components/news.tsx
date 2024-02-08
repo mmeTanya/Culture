@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from "next/link";
 import { v1 as uuidv1 } from 'uuid';
-import Welcome from '../components/welcome'
 import Loader from '../components/loader'
 import s from "../styles/news.module.scss";
 import Button from "../components/button";

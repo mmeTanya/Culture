@@ -8,8 +8,8 @@ export default async function handler(
 ) {
     let { db } = await connectToDatabase()
 
-    const gallery = await db.collection('gallery-dishes').find().toArray()
+    const rewiews = await db.collection('rewiews').find().toArray()
 
-    res.status(200).json({ gallery })
+    res.status(200).json({ rewiews })
 
 }

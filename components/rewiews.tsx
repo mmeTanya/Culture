@@ -27,29 +27,29 @@ const Rewiews = () => {
 
 
   useEffect(() => {
-    onLoadRewiews()
-  }, [rewiews]);
+      onLoadRewiews()
+    }, []);
+
+
 
   const onLoadRewiews = async () => {
+    
     try {
       const response = await fetch('/api/rewiews')
       setStatus(Status.PENDING)
 
       const result = await response.json()
-      console.log(result)
       if (result.rewiews.length === 0) {
         setStatus(Status.REJECTED)
         return
       }
       setRewiews(result.rewiews)
-      console.log(rewiews)
       setStatus(Status.RESOLVED)
     }
     catch {
       setStatus(Status.REJECTED)
     }
   }
-
 
   const handleChange = ({ target: { name, value } }) => {
     setErrorsSubmit({
@@ -126,7 +126,7 @@ const Rewiews = () => {
 
   return (
     <section>
-      <article  className={s.rewiews}>
+      <article className={s.rewiews}>
         <h2 className={s.rewiews__title}>
           Rewiews
         </h2>
@@ -140,48 +140,48 @@ const Rewiews = () => {
             </li>
             ))}
           </ul>}
-      
 
-      <h2 className={s.rewiews__title}>
-         Leave your Rewiew
+
+        <h2 className={s.rewiews__title}>
+          Leave your Rewiew
         </h2>
-      <form className={s.form_info} onSubmit={handleSubmit} autoComplete="off">
-        <div className={s.form_info__form_field}>
-          <label className={s.form_info__label} htmlFor="name">
-            Name
-          </label>
-          <input
-            className={errorsSubmit.name === 'required' || errorsSubmit.name === 'wrong' ? s.form_info__input_red : s.form_info__input}
-            type="text"
-            name="name"
-            id="name"
-            value={name}
-            onChange={handleChange}
-          />
-          {errorsSubmit.name === 'required' && <p className={s.form_info__error}>Напишіть ім`я</p>}
-          {errorsSubmit.name === 'wrong' && <p className={s.form_info__error}>Wrong name</p>}
-        </div>
+        <form className={s.form_info} onSubmit={handleSubmit} autoComplete="off">
+          <div className={s.form_info__form_field}>
+            <label className={s.form_info__label} htmlFor="name">
+              Name
+            </label>
+            <input
+              className={errorsSubmit.name === 'required' || errorsSubmit.name === 'wrong' ? s.form_info__input_red : s.form_info__input}
+              type="text"
+              name="name"
+              id="name"
+              value={name}
+              onChange={handleChange}
+            />
+            {errorsSubmit.name === 'required' && <p className={s.form_info__error}>Напишіть ім`я</p>}
+            {errorsSubmit.name === 'wrong' && <p className={s.form_info__error}>Wrong name</p>}
+          </div>
 
-        <div className={s.form_info__form_field}>
-          <label className={s.form_info__label} htmlFor="comments">
-            Text
-          </label>
-          <textarea
-            className={errorsSubmit.comments === 'required' || errorsSubmit.comments === 'wrong' ? s.form_info__comments_red : s.form_info__comments}
-            name="comments"
-            id="comments"
-            placeholder="Напишіть текст"
-            value={comments}
-            onChange={handleChange}
-          >
-          </textarea>
-          {errorsSubmit.comments === 'required' && <p className={s.form_info__error}>Write text</p>}
-        </div>
-        <div className={s.form_info__button}>
-          <Button theme={'no_animate'} type={'submit'} text={'Send'} />
-        </div>
-        <p className={s.form_info__answer}>{answer}</p>
-      </form>
+          <div className={s.form_info__form_field}>
+            <label className={s.form_info__label} htmlFor="comments">
+              Text
+            </label>
+            <textarea
+              className={errorsSubmit.comments === 'required' || errorsSubmit.comments === 'wrong' ? s.form_info__comments_red : s.form_info__comments}
+              name="comments"
+              id="comments"
+              placeholder="Напишіть текст"
+              value={comments}
+              onChange={handleChange}
+            >
+            </textarea>
+            {errorsSubmit.comments === 'required' && <p className={s.form_info__error}>Write text</p>}
+          </div>
+          <div className={s.form_info__button}>
+            <Button theme={'no_animate'} type={'submit'} text={'Send'} />
+          </div>
+          <p className={s.form_info__answer}>{answer}</p>
+        </form>
       </article>
     </section >
   );

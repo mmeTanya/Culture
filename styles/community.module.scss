@@ -1,19 +1,14 @@
 .hero {
   margin: 0 auto;
-  padding: 30px 10px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100vw;
 
-  @media screen and (min-width: 900px) {
-    padding: 0 10px 30px;
-  }
 
-
-  &__overlay {
+ /*  &__overlay {
     position: relative;
-    width: 45vw;
+    width: 25vw;
     height: 50vh;
     margin: 30px auto;
     box-shadow: 8px -6px 16px -2px black;
@@ -30,18 +25,18 @@
   }
 
   &__img {
-    width: 70%;
-    height: 70%;
+    width: 93%;
+    height: 93%;
     object-fit: contain;
     margin: auto;
   }
-
+ */
 
   &__overlay1 {
     position: relative;
     width: 50vw;
-    height: 50vh;
-    max-height: 300px;
+    height: 30vh;
+    max-height: 500px;
     margin: 90px auto 90px;
     box-shadow: 8px -6px 16px -2px black;
     display: flex;
@@ -50,6 +45,7 @@
 
     @media screen and (min-width: 768px) {
       margin: 90px auto;
+      height: 49vh;
     }
   }
 

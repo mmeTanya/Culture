@@ -1,5 +1,5 @@
 .rewiews {
-  padding: 30px;
+  padding: 10px;
   margin: 0 auto 70px;
   width: 90%;
   display: flex;
@@ -41,10 +41,12 @@
     background: rgb(252, 252, 252);
     background: linear-gradient(70deg, rgb(252, 252, 252) 0%, rgb(155 110 87) 100%);
     padding: 30px;
+    opacity: 70%;
+    box-shadow: 8px -6px 16px -2px #8c8c8c;
 
-    @media screen and (max-width: 900px) {
-      width: 200px;
-      height: 100px;
+    @media screen and (max-width: 790px) {
+      width: 120px;
+      height: 155px;
       padding: 10px;
     }
   }
@@ -53,7 +55,7 @@
     display: inline;
     font-family: Playfair Display;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 9px;
     line-height: 2;
     letter-spacing: 0.05em;
     color: #070401cc;
@@ -63,7 +65,7 @@
 
 
     @media screen and (min-width: 768px) {
-      font-size: 23px;
+      font-size: 19px;
       padding: 0 35px;
     }
   }

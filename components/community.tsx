@@ -1,8 +1,5 @@
 import { Fade } from "react-awesome-reveal"
 import Gallery from '@/components/gallery'
-/* import Gallery1 from '@/components/gallery1' */
-import Button from "../components/button";
-import Modal from "../components/modal";
 import s from "../styles/community.module.scss";
 import React, { CSSProperties } from "react";
 
@@ -11,25 +8,25 @@ const Community = () => {
 
   return (
     <section className={s.hero}>
-      <Fade delay={3000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
+      <Fade delay={1000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
         We are Ukrainian cultural community .
       </Fade>
-      <Fade delay={4000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
+      <Fade delay={1500} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
         In addition to its intrinsic value, culture provides
       </Fade>
-      <Fade delay={5000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
+      <Fade delay={2000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
         important social and economic benefits. With improved
       </Fade>
-      <Fade delay={6000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
+      <Fade delay={2500} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
         learning and health, increased tolerance, and opportunities
       </Fade>
-      <Fade delay={7000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
+      <Fade delay={3000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
         to come together with others, culture enhances our quality
       </Fade>
-      <Fade delay={8000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
+      <Fade delay={3500} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
         of life and increases overall well-beingfor  individuals
       </Fade>
-      <Fade delay={9000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
+      <Fade delay={4000} cascade damping={1e-1} triggerOnce={true} duration={300} className={s.hero__text}>
         and communities.
       </Fade>
       <h1 className={s.hero__title}>Our choreograf</h1>

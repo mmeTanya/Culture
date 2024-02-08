@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+/* import React, { useState, useEffect } from 'react';
 import Link from "next/link";
 import { v1 as uuidv1 } from 'uuid';
 import Loader from '../components/loader'
@@ -110,3 +110,4 @@ const News = () => {
 };
 
 export default News;
+ */

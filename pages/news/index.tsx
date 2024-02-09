@@ -1,32 +1,32 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Header from '../../components/header'
-import Clouds from '../../components/neclace'
-import NewsItem from '../../components/newsItem'
-import Footer from '../../components/footer'
+import Header from "../../components/header";
+import News from '../../components/news'
 import GoUp from '../../components/goUp'
 
-const Parish: NextPage = () => {
+
+const Home: NextPage = () => {
+
 
   return (
-    <div className='overlay' >
-    <Head>
-    <title>Ukrainian cultural community</title>
-      <meta name="description" content="Ukrainian cultural community" />
-      <link rel="icon" href="/dancers.svg" />
-      
-    </Head>
-    <div className='container'>
-      <main>
-      <Header />
-      </main>
-      <footer>
-        <Footer />
-      </footer>
+    <div  >
+      <div><Head>
+        <title>Ukrainian cultural community</title>
+        <meta name="description" content="Ukrainian cultural community" />
+        <link rel="icon" href="/dancers.svg" />
+      </Head>
+        <main>
+          <Header />
+          <div className='container'>
+            <News />
+          </div>
+        </main>
+        <footer>
+        </footer>
+        <GoUp />
+      </div>
     </div>
-    <GoUp />
-  </div>
   )
 }
 
-export default Parish
+export default Home

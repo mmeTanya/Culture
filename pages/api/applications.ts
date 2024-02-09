@@ -10,7 +10,7 @@ export default async function handler(
 
 
     const body = JSON.parse(req.body)
-    const application = db.collection('other-applications').insertOne({
+    const application = db.collection('invite').insertOne({
         name: body.name,
         email: body.email,
         phone: body.phone,

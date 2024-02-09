@@ -53,12 +53,13 @@
     }
 
     &:nth-child(2) {
+      width: 205%;
       grid-column: 2/ 3;
       grid-row: 1 / 7;
     }
 
     &:nth-child(3) {
-      width: 230%;
+      width: 209%;
       grid-column: 3 / 5;
       grid-row: 5 / 11;
     }
@@ -79,6 +80,7 @@
     }
 
     &:nth-child(7) {
+      width: 125%;
       grid-column: 5/ 6;
       grid-row: 9 / 12;
     }

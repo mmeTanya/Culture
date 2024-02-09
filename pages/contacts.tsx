@@ -1,12 +1,14 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from "../components/header";
-import LessonsShedule from '../components/lessons-shedule'
+import Form from '../components/form-order'
+import Contacts from '../components/contacts'
 import GoUp from '../components/goUp'
 
 
-const LessonsShedules: NextPage = () => {
-  
+const Contact: NextPage = () => {
+
+
   return (
     <div  >
       <div><Head>
@@ -14,10 +16,11 @@ const LessonsShedules: NextPage = () => {
         <meta name="description" content="Ukrainian cultural community" />
         <link rel="icon" href="/dancers.svg" />
       </Head>
-        <main>LessonsShedule
+        <main>
           <Header />
           <div className='container'>
-            <LessonsShedule />
+            <Contacts />
+            <Form />
           </div>
         </main>
         <footer>
@@ -28,4 +31,4 @@ const LessonsShedules: NextPage = () => {
   )
 }
 
-export default LessonsShedules
+export default Contact

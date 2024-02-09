@@ -1,4 +1,4 @@
-/* import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from "next/link";
 import { v1 as uuidv1 } from 'uuid';
 import Loader from '../components/loader'
@@ -33,6 +33,7 @@ const News = () => {
       setStatus(Status.PENDING)
       const result = await response.json()
       if (result.news.length === 0) {
+        setStatus(Status.REJECTED)
         return
       }
       const firstPage = result.news.slice(0, 7)
@@ -59,6 +60,7 @@ const News = () => {
       setStatus(Status.PENDING)
       const result = await response.json()
       if (result.news.length === 0) {
+        setStatus(Status.REJECTED)
         return
       }
       const nextPage = result.news.slice(7 * page - 7, 7 * page)
@@ -78,11 +80,11 @@ const News = () => {
 
   return (
     <section className={s.news} >
-      <Welcome />
       <h2 className={s.news__title}>
-        Новини
+        Our news
       </h2>
       {status === Status.PENDING && <Loader />}
+      {status === Status.REJECTED && <p>no</p>}
       {status === Status.RESOLVED &&
         <ul>
           {news && news.map(item =>
@@ -97,9 +99,6 @@ const News = () => {
               {item.link && item.link.map(el => (<a key={uuidv1()} href={el.href} className={s.news_item__link}>{el.p}</a>))}
               {item.date && <p className={s.news_item__date}>{item.date}</p>}
             </div>
-            <Link legacyBehavior href={`/news/${item._id}`}>
-              <a id="link" className={s.news_item__link} > Показати повний текст </a>
-            </Link>
           </li>)
           )}
         </ul>
@@ -110,4 +109,3 @@ const News = () => {
 };
 
 export default News;
- */

@@ -1,0 +1,26 @@
+.contacts {
+  padding: 70px 30px 0px;
+  text-align: center;
+
+  &__overlay {
+    display: block;
+    margin: 50px auto;
+  }
+
+  &__title_paragraf {
+    font-size: 29px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 70px auto 50px;
+    color: #000;
+  }
+
+  &__text {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #000;color: #000;
+    
+  }
+}

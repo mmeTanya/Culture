@@ -84,10 +84,9 @@ const News = () => {
         Our news
       </h2>
       {status === Status.PENDING && <Loader />}
-      {status === Status.REJECTED && <p>no</p>}
       {status === Status.RESOLVED &&
         <ul>
-          {news && news.map(item =>
+          { news.map(item =>
           (<li key={uuidv1()} className={s.news_item}>
             <div className={s.news_item__cover}>
               {item.title && <h2 className={s.news_item__title}>{item.title}</h2>}

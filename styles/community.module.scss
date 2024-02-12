@@ -5,6 +5,10 @@
   align-items: center;
   width: 100vw;
 
+  @media screen and (max-width: 800px) {
+    padding-left: 50px;
+  }
+
   &__overlay1 {
     position: relative;
     width: 50vw;

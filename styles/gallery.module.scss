@@ -41,7 +41,7 @@
     &:hover,
     &:focus {
       animation: rotate 1s 1;
-      transform: scale(2);
+      transform: scale(1.5);
       z-index: 7;
     }
 
@@ -59,7 +59,7 @@
     }
 
     &:nth-child(3) {
-      width: 209%;
+      width: 157%;
       grid-column: 3 / 5;
       grid-row: 5 / 11;
     }
@@ -75,14 +75,15 @@
     }
 
     &:nth-child(6) {
-      grid-column: 6 / 6;
-      grid-row: 3 / 7;
+      width: 197%;
+      grid-column: 5 / 6;
+      grid-row: 2 / 7;
     }
 
     &:nth-child(7) {
-      width: 125%;
+      width: 175%;
       grid-column: 5/ 6;
-      grid-row: 9 / 12;
+      grid-row: 10 / 12;
     }
 
     &:nth-child(8) {

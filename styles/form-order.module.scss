@@ -27,21 +27,8 @@
     }
   }
 
-  &__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
   &__item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* border-radius: 50px; */
-    margin: 10px;
     border: 1px transparent;
-    width: 305px;
-    height: 205px;
     background: rgb(252, 252, 252);
     background: linear-gradient(70deg, rgb(252, 252, 252) 0%, rgb(200, 163, 144) 100%);
     padding: 30px;
@@ -53,7 +40,7 @@
       height: 155px;
       padding: 10px;
     }
-  }
+  } 
 
   &__text {
     display: inline;

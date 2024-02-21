@@ -27,6 +27,13 @@
     }
   }
 
+   &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+ 
+
   &__item {
     border: 1px transparent;
     background: rgb(252, 252, 252);
@@ -40,7 +47,7 @@
       height: 155px;
       padding: 10px;
     }
-  }
+  } 
 
   &__text {
     display: inline;

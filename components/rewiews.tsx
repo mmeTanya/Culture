@@ -27,13 +27,13 @@ const Rewiews = () => {
 
 
   useEffect(() => {
-      onLoadRewiews()
-    }, []);
+    onLoadRewiews()
+  }, []);
 
 
 
   const onLoadRewiews = async () => {
-    
+
     try {
       const response = await fetch('/api/rewiews')
       setStatus(Status.PENDING)

@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from "../components/header";
-
 import Contacts from '../components/contacts'
 import GoUp from '../components/goUp'
 
@@ -20,7 +19,6 @@ const Contact: NextPage = () => {
           <Header />
           <div className='container'>
             <Contacts />
-          
           </div>
         </main>
         <footer>

@@ -28,7 +28,7 @@ const Header = () => {
           <a className={s.join_us__instagram} href="https://www.instagram.com/mme.tania/" />
         </li>
         <li className={s.join_us__social_item}>
-          <a className={s.join_us__facebook} href="https://www.facebook.com/tanyaivanovn" />
+          <a className={s.join_us__facebook} href="https://www.facebook.com/groups/401142382385448/?hoisted_section_header_type=recently_seen&multi_permalinks=401150072384679" />
         </li>
       </ul>
      
